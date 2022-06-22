@@ -1,0 +1,22 @@
+.body{
+    background-color: #FEEEE2;
+}
+.signup_form{
+    margin-top: 50px;
+    padding: 2%;
+    width: 200px;
+    border-radius: 25px;
+    background-color: #D4C2B4;
+   
+}
+#form_input{
+    border-radius: 25px;
+}
+.signup_btn{
+    background-color: #65453A;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    outline: none;
+   
+}
