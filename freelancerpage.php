@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Gallery Market Page </title>
+    <title>Freelancer Page </title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,59 +9,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="gallerymarketpage.css">
+    <link rel="stylesheet" href="styles/freelancerpage.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a7db501430.js" crossorigin="anonymous"></script>
   </head>
-  <body>
+  <body class="body">
       <!---Navbar-->
-
+      <?php
+      include 'include/navigation.html';
+    ?>
       
-      <header class="main-menu menu">
-          <div class="container-fluid">
-              <div class="row align-items-center justify-content-center">
-                  <div class="col-lg-11">
-                      <nav class="navbar navbar-expand-lg navbar-light">
-                          <a class="navbar-brand" href="">
-                            <img src="img/logo.png" style="width: 100px; height: 100px; padding-bottom: 10px;"/>
-                          </a>
-                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav"aria-control="myNav" aria-expanded="false" aria-label="toggle navigation">
-                              <span class="nav-icon">
-                                  <i class="fas fa-bars"></i>
-                              </span>
-                          </button>
-                          <div class="collapse navbar-collapse main-menu-item"id="myNav">
-                              <ul class="navbar-nav">
-                                  <li class="nav-item">
-                                      <a class="nav-link" href="">Home</a>
-                                  </li>
-                                <li class="nav-item">
-                                    <a class="nav-link"href="">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link"href="">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link"href="gallerymarketpage.html">Gallery Market</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link"href="freelancerpage.html">Freelance Page</a>
-                                </li>
-                              
-                              <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="navbarDropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
-                                <div class="dropdown-menu"aria-labelledby="navbarDropdown_1">
-                                    <a class="dropdown-item" href="">Logout</a>
-                                </div>
-                            </li>
-                          </ul>
-                          </div>
-                         
-                      </nav>
-                  </div>
-              </div>
-          </div>
-      </header>
+    
       <!--Breadcrumbs-->
       <section class="breadcrumb breadcrumb-bg">
           <div class="container">
@@ -94,7 +53,7 @@
                     <li>
                         
                         <div class="items">
-                            <a href="gallerymarketpage.html"><span class="item" data-name="all" >All</span></a>
+                            <a href="freelancerpage.html"><span class="item active" data-name="all">All</span></a>
                             <br>
                             <br>
                             <a href=""><span class="item" data-name="painting">Painting</span></a>
@@ -123,7 +82,7 @@
                           <div class="col-lg-12">
                               <div class="product-top d-flex justify-content-between align-items-center">
                                   <div class="product-sec product-item">
-                                      <h2 class="my-5">Gallery Market</h2>
+                                      <h2 class="my-5">Freelancer Page</h2>
                                   </div>
                               </div>
                           </div>
@@ -134,7 +93,7 @@
              <div class="col-lg-4 col-sm-6">
                     <div class="product-cate" data-name="painting">
                       <div>
-                   <img src="img/art7.jpg"alt="">
+                   <img src="img/drawing3.jpg"alt="">
                    <div class="product-icon">
                       <ul>
                     <li><a href=""><i class="fas fa-heart"></i></a> </li>
@@ -144,10 +103,11 @@
                       </div>
                       <!------>
                       <div class="product-des"data-name="painting">
-                          <h5> Oil Painting</h5>
-                          <p>1500.00</p>
-                          <li><a href=""><i class="fa-brands fa-facebook"></i></a> John Doe</li>
-                          <li><a href=""><i class="fa-brands fa-instagram-square"></i></a> John Doe</li>
+                        <li><a href=""><i class="fa-solid fa-user-large"></i></a> Camille Gudio</li>
+                        <br>
+                          <p> Open for Drawing Commission</p>
+                          
+                         
                           <br>
                           
 
@@ -157,6 +117,26 @@
                           </div>
                           <!----->
                           
+                                                      <div class="preview-box">
+                                                        <div class="details">
+                                                          <span class="title">Image Category: <p></p></span>
+                                                          <span class="icon fas fa-times"></span>
+                                                        </div>
+                                                        <div class="image-box"><img src="" alt=""></div>
+                                                      </div>
+                                                      <div class="shadow"></div>
+                                                      <script src="gallerymarketpage.js"></script>
+                                                    
+                                              <!----->
+                     
+      <!--End of Sidebar-->
+
+
+
+
+
+
+
 
 
 
