@@ -9,7 +9,7 @@
 </head>
 <body class="body">
     <?php
-		include 'include/navbar.php';
+		include 'include/navigation.html';
     ?>
 </body>
 </html>
