@@ -27,3 +27,8 @@ $(document).ready(function(){
     
 });
 
+function getImage(imagename){
+  var newimg=imagename.replace(/^.*\\/,"");
+  $('#display-image').html(newimg);
+}
+

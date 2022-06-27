@@ -24,7 +24,6 @@ body{
     overflow-x: hidden;
     padding-left: 35rem;
 }
-
 section{
     min-height: 100vh;
     padding: 1rem;
@@ -108,6 +107,7 @@ header .navbar ul li a{
     color: #fff;
     font-size: 2rem;
     border-radius: 5rem;
+    text-decoration: none;
 }
 header .navbar ul li a:hover{
     background:var(--yellow);
@@ -128,74 +128,93 @@ header .navbar ul li a:hover{
 .home{
     display: flex;
     justify-content: center;
-    flex-flow: column;
-    padding: 0 15rem;
 }
-.home h3{
+.description{
+    width: 70%;
+    padding: 0 15rem;
+    margin-top: 30rem;
+}
+.home .description h3{
     font-size: 2.5rem;
 }
-.home h1{
+.home .description h1{
     font-size: 5rem;
 }
 .home h1 span{
     color: #65453A;
 }
-.home p{
+.home .description p{
     font-size: 2rem;
     padding: 1rem 0;
 }
-
-.about .row{
+.logo{
     display: flex;
+}
+.logo .facebook{
+    width: 5rem;
+    height: 5rem;
+    padding: 0.7rem;
+}
+.logo .instagram{
+    width: 5rem;
+    height: 5rem;
+    padding: 0.7rem;
+}
+.home-about{
+    width: 30%;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 1rem 0;
+    margin-top: 28rem;
 }
-
-.about .row .info{
-    flex:1 1 48rem;
-    padding:2rem 1rem;
-    padding-left: 6rem;
-}
-
-.about .row .info h3{
+.home-about h3{
     font-size: 2rem;
     color: #65453A;
     padding: 1rem 0;
     font-weight: normal;
 }
-
-.about .row .info h3 span{
+.home-about h3 span{
     padding: 0 .5rem;
     color: #222;
 }
-
-.about .row .counter{
-    color: var(--brown);
-    flex:1 1 48rem;
-    padding-right: 2rem;
+.portfolio .box-container{
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
-
-.about .row .counter .box{
-    width:20rem;
-    background:#222;
+.portfolio .image{
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portfolio .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.portfolio-title{
     text-align: center;
-    padding: 2rem;
-    margin:2rem;
+}
+.main-image{
+    position: absolute;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.freelance{
+    width: 50%;
+}
+.gallery{
+    width: 50%;
 }
 
-.about .row .counter .box span{
-    font-size: 4rem;
-}
 
-.about .row .counter .box h3{
-    font-size: 2rem;
-    color:#fff;
-}
+
+/**
 .portfolio .box-container{
     display: flex;
     align-items: center;
@@ -222,70 +241,91 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box:hover img{
     transform: scale(1.2);
 }
-
-.contact .row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+**/
+.show-btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    background: #65453A;
 }
-.contact .row .content{
-    flex: 1 1 30rem;
-    padding: 4rem;
-    padding-bottom: 0;
+input[type="checkbox"]{
+    display: none;
 }
-
-.contact .row form{
-    flex: 1 1 45rem;
-    padding: 2rem;
-    margin: 2rem;
-    margin-bottom: 4rem;
+#show:checked ~ .container{
+    display: block;
 }
+.container{
+    display: none;
+    width: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background: #65453A;
+    opacity: 0.9;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 
-.contact .row form .box{
-    padding: 1.5rem;
-    margin: 1rem 0;
-    background: #3333;
-    text-transform: none;
-    font-size: 1.7rem;
-    width: 100%;
 }
-
-.contact .row form .box{
-    text-transform: capitalize;
+.container{
+    position: absolute;
 }
-
-.contact .row form .message{
-    height: 15rem;
-    resize: none;
+.container .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 25px;
+    cursor: pointer;
 }
-
-.contact .row .content .title{
+.title h1{
+    text-align: center;
     text-transform: uppercase;
-    font-size: 3rem;
-    padding-bottom: 2rem;
-}
-
-.contact .row .content .info h3{
-    display: flex;
-    align-items: center;
     font-size: 2rem;
-    padding: 1rem 0;
-    font-weight: normal;
+}
+form{
+    margin: 20px;
+}
+label{
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+input{
+    display: block;
+    width: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+button{
+    display: block;
+    width: 95%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: #D4C2B4;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: #20002c;
+
+}
+.link{
+    margin-top: 30px;
+    text-align: center;
+    color:white;
 }
 
-.contact .row .content .info h3 i{
-    padding-right: 1rem;
-    color: var(--yellow);
+a:hover{
+    text-decoration: underline;
 }
-
-
-
-
-
-
-
-
 
 
 @media(max-width: 1200px){
@@ -317,6 +357,29 @@ header .navbar ul li a:hover{
     html{
         font-size: 50%;
     }
+    .home .description h1{
+        font-size: 4rem;
+        margin-top: 1rem;
+    }
+    .home{
+        display: inline;
+        justify-content: center;
+        padding: 0 0 15rem 0;
+    }
+    .description{
+        width: 100%;
+        padding: 0 15rem;
+        margin-top: 30rem;
+        margin-bottom: 15rem;
+    }
+    .home-about{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.1rem;
+        margin-bottom: 15rem;
+        padding: 0 0 0 15rem;
+    }
 }
 
 @media(max-width: 400px){
@@ -339,6 +402,27 @@ header .navbar ul li a:hover{
     }
     .contact .row form{
         margin: 3rem 0;
+    }
+    .home .description h1{
+        font-size: 4rem;
+        margin-top: 1rem;
+    }
+    .home{
+        display: inline;
+        justify-content: center;
+    }
+    .description{
+        width: 100%;
+        margin-top: 30rem;
+        padding: 5%;
+    }
+    .home-about{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: -15rem;
+        margin-bottom: 17rem;
+        padding: 5%;
     }
 }
 
