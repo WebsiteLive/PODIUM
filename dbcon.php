@@ -1,4 +1,3 @@
 <?php
-    $con = odbc_connect("Capstone","capstone","Group5");
-    
+    $con = odbc_connect("Capstone","capstone","Group5");  
 ?>
