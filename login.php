@@ -9,40 +9,26 @@
     include "dbcon.php";
     
     
-    if($con->connect_error){
-        die("Failed To Connect: ".$con->connect_error);
+    $query = "select*from UserLogIn_Credentials WHERE user_name = '$username' ";
+    $result = odbc_exec($con,$query);
+    
+    if (empty($result)) {
+        echo "BOBO MALI<script>
+            window.alert('Does not Exist');
+           
+            </script>";
     }
-    else{
-        $query = "select * from users_info where user_name= ?";
-        $stmt = $con->prepare($query);
-        $stmt ->bind_param("s", $username);
-        $stmt->execute();
-        $stmt_result = $stmt->get_result();
-        if($stmt_result->num_rows > 0){
-            $data = $stmt_result->fetch_assoc();
-            if($data['user_password'] === $password){
-
-                $_SESSION['user_id'] = $data['User_id'];
-               echo "LOGIN SUCCESS";
-                /*header("Location: $current");*/
-                die;
-				
+    else {
+        while ($row = odbc_fetch_array($result) ) {
+            $user_password=$row["user_password"];
+            if($user_password==$password){
+                echo "Success";
             }
-            else {
-            echo "<script>
-            window.alert('Wrong Username/Password');
-            window.location.href='$current';
-            </script>";
-                die;
+            else{
+                echo"BOBO MALI";
             }
         }
-        else{
-            
-            echo "<script>
-            window.alert('Account does not Exist');
-            </script>";
-            die;
-        }
+        
     }
     
 ?>
