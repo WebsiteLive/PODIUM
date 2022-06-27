@@ -9,17 +9,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/navigation.css">
+    <script src="include/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a7db501430.js" crossorigin="anonymous"></script>
   </head>
+  
   <body>
       <!---Navbar-->
-
-      
       <header class="main-menu menu">
           <div class="container-fluid">
               <div class="row align-items-center justify-content-center">
+                
                   <div class="col-lg-11">
                       <nav class="navbar navbar-expand-lg navbar-light">
                           <a class="navbar-brand" href="">
@@ -49,18 +50,40 @@
                                 </li>
                               
                               <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="navbarDropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
+                                <a class="nav-link dropdown-toggle" href="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
                                 <div class="dropdown-menu"aria-labelledby="navbarDropdown_1">
-                                    <a class="dropdown-item" href="">Logout</a>
-                                    <a class="dropdown-item" href="">Logout</a>
+                                    <a class="dropdown-item" id="" onclick="" >SignUp</a>
+                                    <a class="dropdown-item" id="loginbtn" onclick="loginmodal()" >SignIn</a>
+                                    
                                 </div>
                             </li>
                           </ul>
                           </div>
-                         
+                        
                       </nav>
+                      <div id="loginmodal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times</span>
+                            <h5 class="modal-title">LOGIN</h5>
+                            <form action="login.php"method="post">
+                                <div class="form-group">
+                                    <label for="username">User Name:</label><br>
+                                    <input type="text" class="form-control" id="username" name="username" required>
+                                 </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label><br>
+                                    <input type="password" class="form-control" id="password" name="password" required>
+                                </div>
+                                <input type="submit" value="LogIn">
+                            </form>
+                                        
+                        </div>
+                    </div>
                   </div>
               </div>
           </div>
+          
       </header>
-      </body>
+	</div>
+    
+</body>
