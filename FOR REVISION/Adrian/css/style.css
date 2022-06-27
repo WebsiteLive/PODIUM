@@ -213,6 +213,15 @@ header .navbar ul li a:hover{
 }
 
 
+.box-container{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem o;
+}
+
+
 
 /**
 .portfolio .box-container{
