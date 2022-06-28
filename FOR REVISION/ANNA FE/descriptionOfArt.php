@@ -37,7 +37,6 @@
 					<br>
 					<br>
 					Here, he has arranged the figures as a pyramid set in a landscape. While the theme of the Virgin Mary, her mother (Anne), and Jesus was common, it is unusual for Mary to be portrayed in her mother's lap. The background landscape, whose crags are seemingly replicated in Anne's veil, virtually melts in its sfumato haze. The baby lamb is both a symbol of innocence and of Jesus' sacrifice for humanity, memorialized in John the Baptist's reference to Jesus as the "Lamb of God".</p>
-					<br>
 					<div class="floating-parent">
 						<a href="http://localhost/PODIUM/FOR%20REVISION/INNAI/finalpodium.html" class="widgetlabel">Go to Artist's page  <i class="far fa-long-arrow-alt-right"></i></a>
 					</div>
