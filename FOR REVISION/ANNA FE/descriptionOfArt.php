@@ -25,19 +25,21 @@
 		    </div>
 		    <div class="col-sm-6">
 				<div class ="container">
-					<h4>The Virgin and Child with St Anne</h4>
-					<br>
-					<strong>Leonardo da Vinci</strong>
-					<br>
-					<h5>Oil on wood</h5>
-					<em>168 x 130 cm (5 1/2 x 4 1/2 ft.)</em>
-					<br><br><br>
-					<p>
-					This painting depicted St. Anne, her daughter the Virgin Mary, and the infant Jesus. Christ is shown grappling with a sacrificial lamb symbolizing his Passion whilst the Virgin tries to restrain him. The painting was commissioned as the high altarpiece for the Church of Santissima Annunziata in Florence and its theme had long preoccupied Leonardo.
-					<br>
-					<br>
-					Here, he has arranged the figures as a pyramid set in a landscape. While the theme of the Virgin Mary, her mother (Anne), and Jesus was common, it is unusual for Mary to be portrayed in her mother's lap. The background landscape, whose crags are seemingly replicated in Anne's veil, virtually melts in its sfumato haze. The baby lamb is both a symbol of innocence and of Jesus' sacrifice for humanity, memorialized in John the Baptist's reference to Jesus as the "Lamb of God".</p>
-					<div class="floating-parent">
+					<div class="text">
+						<h4>The Virgin and Child with St Anne</h4>
+						<br>
+						<strong>Leonardo da Vinci</strong>
+						<br>
+						<h5>Oil on wood</h5>
+						<em>168 x 130 cm (5 1/2 x 4 1/2 ft.)</em>
+						<br><br><br>
+						<p>
+						This painting depicted St. Anne, her daughter the Virgin Mary, and the infant Jesus. Christ is shown grappling with a sacrificial lamb symbolizing his Passion whilst the Virgin tries to restrain him. The painting was commissioned as the high altarpiece for the Church of Santissima Annunziata in Florence and its theme had long preoccupied Leonardo.
+						<br>
+						<br>
+						Here, he has arranged the figures as a pyramid set in a landscape. While the theme of the Virgin Mary, her mother (Anne), and Jesus was common, it is unusual for Mary to be portrayed in her mother's lap. The background landscape, whose crags are seemingly replicated in Anne's veil, virtually melts in its sfumato haze. The baby lamb is both a symbol of innocence and of Jesus' sacrifice for humanity, memorialized in John the Baptist's reference to Jesus as the "Lamb of God".</p>
+					</div>
+						<div class="floating-parent">
 						<a href="http://localhost/PODIUM/FOR%20REVISION/INNAI/finalpodium.html" class="widgetlabel">Go to Artist's page  <i class="far fa-long-arrow-alt-right"></i></a>
 					</div>
 				</div>
