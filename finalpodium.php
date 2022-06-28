@@ -127,15 +127,15 @@
 
 	<!--FOOTER-->
 		<!-- Remove the container if you want to extend the Footer to full width. -->
-		<div class="my-5" style="padding-bottom: 0;">
+		<div class="my-5">
 		<!-- Footer -->
-		<footer class="text-center text-white" style="background-color: #3f51b5">
+		<footer class="text-center text-white" style="background-color: #65453A">
 			<!-- Grid container -->
 			<div>
 			<!-- Section: Links -->
 			<section class="mt-5">
 				<!-- Grid row-->
-				<div class="row text-center d-flex justify-content-center pt-5">
+				<div class="row text-center justify-content-center pt-5">
 				<!-- Grid column -->
 				<div class="col-md-2">
 					<h6 class="text-uppercase font-weight-bold">
