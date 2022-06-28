@@ -126,51 +126,117 @@
 	</div>
 
 	<!--FOOTER-->
-	<center>
-	<footer class="page-footer font-small cyan darken-3" style="background-color: #FEEEE2; padding: 30px;">
+		<!-- Remove the container if you want to extend the Footer to full width. -->
+		<div class="my-5" style="padding-bottom: 0;">
+		<!-- Footer -->
+		<footer class="text-center text-white" style="background-color: #3f51b5">
+			<!-- Grid container -->
+			<div>
+			<!-- Section: Links -->
+			<section class="mt-5">
+				<!-- Grid row-->
+				<div class="row text-center d-flex justify-content-center pt-5">
+				<!-- Grid column -->
+				<div class="col-md-2">
+					<h6 class="text-uppercase font-weight-bold">
+					<a href="#!" class="text-white">About us</a>
+					</h6>
+				</div>
+				<!-- Grid column -->
 
-	  <!-- Footer Elements -->
-	  <div class="container">
+				<!-- Grid column -->
+				<div class="col-md-2">
+					<h6 class="text-uppercase font-weight-bold">
+					<a href="#!" class="text-white">Products</a>
+					</h6>
+				</div>
+				<!-- Grid column -->
 
-	    <!-- Grid row-->
-	    <div class="row">
+				<!-- Grid column -->
+				<div class="col-md-2">
+					<h6 class="text-uppercase font-weight-bold">
+					<a href="#!" class="text-white">Awards</a>
+					</h6>
+				</div>
+				<!-- Grid column -->
 
-	      <!-- Grid column -->
-	      <div class="col-md-12">
-			 <div class="display-flex" style="margin-bottom: 40px; padding-left: 70px; padding-right:120px ">
-	        	<a href="#" style="color: #000000; padding-right: 65px;text-decoration: none; font-size: 20px;">Home</a>
-	        	<a href="#" style="color: #000000; padding: 50px; text-decoration: none; font-size: 20px;">Contact</a>
-	        	<a href="#" style="color: #000000; padding-left: 70px; text-decoration: none; font-size: 20px;">About</a>
-	        </div>
-	        <div class="mb-5">
-	          <!-- Facebook -->
-	          <a class="fb-ic">
-	            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-	          </a>
-	          <!--Linkedin -->
-	          <a class="li-ic">
-	            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-	          </a>
-	          <!--Instagram-->
-	          <a class="ins-ic">
-	            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-	          </a>
-	          <div class="horizontal"></div>
-	      </div>
-	      <!-- Grid column -->
-		
-	    </div>
-	    <!-- Grid row-->
-		
-	  </div>
-	  <!-- Footer Elements -->
-	  
-	  <!-- Copyright -->
-	  <div class="footer-copyright text-center" style="padding-right: 50px; margin-bottom: 10px; margin-top: -30px;">All rights reserved | Podium Freelancing Website 2022
-	  </div>
-	  <!-- Copyright -->
+				<!-- Grid column -->
+				<div class="col-md-2">
+					<h6 class="text-uppercase font-weight-bold">
+					<a href="#!" class="text-white">Help</a>
+					</h6>
+				</div>
+				<!-- Grid column -->
 
+				<!-- Grid column -->
+				<div class="col-md-2">
+					<h6 class="text-uppercase font-weight-bold">
+					<a href="#!" class="text-white">Contact</a>
+					</h6>
+				</div>
+				<!-- Grid column -->
+				</div>
+				<!-- Grid row-->
+			</section>
+			<!-- Section: Links -->
+
+			<hr class="my-5" />
+
+			<!-- Section: Text -->
+			<section class="mb-5">
+				<div class="row d-flex justify-content-center">
+				<div class="col-lg-8">
+					<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+					distinctio earum repellat quaerat voluptatibus placeat nam,
+					commodi optio pariatur est quia magnam eum harum corrupti
+					dicta, aliquam sequi voluptate quas.
+					</p>
+				</div>
+				</div>
+			</section>
+			<!-- Section: Text -->
+
+			<!-- Section: Social -->
+			<section class="text-center mb-5">
+				<a href="" class="text-white me-4">
+				<i class="fab fa-facebook-f"></i>
+				</a>
+				<a href="" class="text-white me-4">
+				<i class="fab fa-twitter"></i>
+				</a>
+				<a href="" class="text-white me-4">
+				<i class="fab fa-google"></i>
+				</a>
+				<a href="" class="text-white me-4">
+				<i class="fab fa-instagram"></i>
+				</a>
+				<a href="" class="text-white me-4">
+				<i class="fab fa-linkedin"></i>
+				</a>
+				<a href="" class="text-white me-4">
+				<i class="fab fa-github"></i>
+				</a>
+			</section>
+			<!-- Section: Social -->
+			</div>
+			<!-- Grid container -->
+
+			<!-- Copyright -->
+			<div
+				class="text-center p-3"
+				style="background-color: rgba(0, 0, 0, 0.2)"
+				>
+			© 2020 Copyright:
+			<a class="text-white" href="https://mdbootstrap.com/"
+				>MDBootstrap.com</a
+				>
+			</div>
+			<!-- Copyright -->
+		</footer>
+		<!-- Footer -->
+		</div>
+		<!-- End of .container -->
 	</footer>
-	</center>
 </body>
 </html>
