@@ -51,8 +51,8 @@ body{
 
 .floating-parent{
 	position: fixed;
-	bottom: 19%;
-	right: 21%;
+	bottom: 19vh;
+	right: 21vw;
 	text-align: center;
 	color:white;
 }
@@ -75,6 +75,7 @@ body{
 	font-size: 15px;
 }
 .floating-parent .widgetlabel:hover{
-    -webkit-transform: scale(1.1);
-    background: #1b9a12;
+    transform: scale(1.2);
+	transition: all .2s linear;
+    background-color: #1b9a12;
 }
