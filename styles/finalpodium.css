@@ -145,9 +145,9 @@
 	}
 	.carousel-caption h5{
 	font-size: 35px;
-	text-shadow: 3px 2px #000000;
+	text-shadow: 3px 2px #fff;
 	letter-spacing: 2px;
-	margin-top: 10px;
+	margin-top: 5px;
 	font-weight: bold;
 	}
 	.carousel-caption p{
@@ -155,7 +155,7 @@
 	margin: auto;
 	margin-top: 5px;
 	font-size: 15px;
-	text-shadow: 2px 2px #000000;
+	text-shadow: 2px 2px #fff;
 	line-height: 1.9;
 	font-family: poppins;
 	}
@@ -188,12 +188,7 @@
 	background-color: orange;
 	opacity: 75%;
 	}
-}
-#lo-engage-ext-container{
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-#lo-companion-container{
-	margin-bottom: 0;
-	padding-bottom: 0;
+	.col.display-4{
+		padding-top: 40px;
+	}
 }
