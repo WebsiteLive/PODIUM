@@ -99,39 +99,7 @@
                           <li><a href=""><i class="fa-brands fa-instagram-square"></i></a> John Doe</li>
                    </div>
              
-                   <div class="product" data-name="p-2">
-                      <img src="img/art1.jpg" alt="">
-                      <h3>Digital Painting</h3>
-                      <div class="price">$2.00</div>
-                      <li><a href=""><i class="fa-brands fa-facebook"></i></a> John Doe</li>
-                          <li><a href=""><i class="fa-brands fa-instagram-square"></i></a> John Doe</li>
-                   </div>
-             
-                   <div class="product" data-name="p-3">
-                      <img src="img/art1.jpg" alt="">
-                      <h3>Oil Painting</h3>
-                      <div class="price">$2.00</div>
-                      <li><a href=""><i class="fa-brands fa-facebook"></i></a> John Doe</li>
-                      <li><a href=""><i class="fa-brands fa-instagram-square"></i></a> John Doe</li>
-                   </div>
-             
-                   <div class="product" data-name="p-4">
-                      <img src="img/art1.jpg" alt="">
-                      <h3>brinjal</h3>
-                      <div class="price">$2.00</div>
-                   </div>
-             
-                   <div class="product" data-name="p-5">
-                      <img src="img/art1.jpg" alt="">
-                      <h3>Oil Painting</h3>
-                      <div class="price">$2.00</div>
-                   </div>
-             
-                   <div class="product" data-name="p-6">
-                      <img src="img/art1.jpg" alt="">
-                      <h3>Oil Painting</h3>
-                      <div class="price">$2.00</div>
-                   </div>
+                   
              
                 </div>
              
@@ -158,100 +126,7 @@
                    </div>
                 </div>
              
-                <div class="preview" data-target="p-2">
-                   <i class="fas fa-times"></i>
-                   <img src="img/art1.jpg" alt="">
-                   <h3>Oil Painting</h3>
-                   <div class="stars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <span>( 250 )</span>
-                   </div>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                   <div class="price">$2.00</div>
-                   <div class="buttons">
-                   <a href="#" class="description">Go to Description Page</a>
-                   </div>
-                </div>
-             
-                <div class="preview" data-target="p-3">
-                   <i class="fas fa-times"></i>
-                   <img src="img/art1.jpg" alt="">
-                   <h3>Oil Painting</h3>
-                   <div class="stars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <span>( 250 )</span>
-                   </div>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                   <div class="price">$2.00</div>
-                   <div class="buttons">
-                   <a href="#" class="description">Go to Description Page</a>
-                   </div>
-                </div>
-             
-                <div class="preview" data-target="p-4">
-                   <i class="fas fa-times"></i>
-                   <img src="img/art1.jpg" alt="">
-                   <h3>organic brinjal</h3>
-                   <div class="stars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <span>( 250 )</span>
-                   </div>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                   <div class="price">$2.00</div>
-                   <div class="buttons">
-                   <a href="#" class="description">Go to Description Page</a>
-                   </div>
-                </div>
-             
-                <div class="preview" data-target="p-5">
-                   <i class="fas fa-times"></i>
-                   <img src="img/art1.jpg" alt="">
-                   <h3>organic broccoli</h3>
-                   <div class="stars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <span>( 250 )</span>
-                   </div>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                   <div class="price">$2.00</div>
-                   <div class="buttons">
-                   <a href="#" class="description">Go to Description Page</a>
-                   </div>
-                </div>
-             
-                <div class="preview" data-target="p-6">
-                   <i class="fas fa-times"></i>
-                   <img src="img/art1.jpg" alt="">
-                   <h3>organic potatoes</h3>
-                   <div class="stars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <span>( 250 )</span>
-                   </div>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                   <div class="price">$2.00</div>
-                   <div class="buttons">
-                   <a href="#" class="description">Go to Description Page</a>
-                   </div>
-                </div>
+               
              
              </div>
              
