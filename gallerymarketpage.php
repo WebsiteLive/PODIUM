@@ -91,7 +91,7 @@
              
                 <div class="products-container">
 
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                    <div class="product" data-name="p-1">
                       <img src="img/art1.jpg" alt="">
                       <h3>Oil Painting</h3>
@@ -100,7 +100,7 @@
                           <li><a href=""><i class="fa-brands fa-instagram-square"></i></a> John Doe</li>
                    </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                    <div class="product" data-name="p-1">
                       <img src="img/art1.jpg" alt="">
                       <h3>Oil Painting</h3>
