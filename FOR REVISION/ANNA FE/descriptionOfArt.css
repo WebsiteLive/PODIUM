@@ -53,23 +53,25 @@ body{
 
 @media only screen and (min-width: 601px){
 	.floating-parent .widgetlabel{
-		position: fixed;
-		white-space: nowrap;
+		position: relative;
+		white-space: normal;
 		border: 0px;
 		cursor: pointer;
 		border-radius: 35px;
+		padding: 5px 15px 5px 15px;
 		background-color: #614537;
-		display: block;
-		margin-left:20%;
-		margin-top: 7%;
-		box-shadow: 0 0 50px rgb(172, 168, 168);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		box-shadow: 0 0 50px rgb(95, 95, 95);
 		color: white;
 		text-decoration: none;
-		font-size: 15px;
-		text-align: center;
-		width: 14vw;
-		
-		
+		font-size:1vw;
+		margin-bottom:10%;
+		width: 15vw;
+		margin-left: 20%;
+		margin-top: 8%;
+		padding: auto;
 	}
 	.floating-parent .widgetlabel:hover{
 		transform: scale(1.2);
@@ -77,6 +79,7 @@ body{
 		background-color: #1b9a12;
 	}
 }
+
 @media only screen and (max-width: 600px) {
 	.floating-parent{
 			position: fixed;
@@ -90,7 +93,6 @@ body{
 			position: relative;
 			white-space: nowrap;
 			border: 0px;
-			font-size: 12px;
 			cursor: pointer;
 			border-radius: 35px;
 			padding: 5px 15px 5px 15px;
@@ -101,34 +103,11 @@ body{
 			box-shadow: 0 0 50px rgb(95, 95, 95);
 			color: white;
 			text-decoration: none;
-			font-size: 15px;
+			font-size: 80%;
 		}
 		.floating-parent .widgetlabel:hover{
 			transform: scale(1.2);
 			transition: all .2s linear;
 			background-color: #1b9a12;
 		}
-	}
-	
-	.floating-parent .widgetlabel{
-		position: relative;
-		white-space: nowrap;
-		border: 0px;
-		font-size: 12px;
-		cursor: pointer;
-		border-radius: 35px;
-		padding: 5px 15px 5px 15px;
-		background-color: #614537;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		box-shadow: 0 0 50px rgb(95, 95, 95);
-		color: white;
-		text-decoration: none;
-		font-size: 15px;
-	}
-	.floating-parent .widgetlabel:hover{
-		transform: scale(1.2);
-		transition: all .2s linear;
-		background-color: #1b9a12;
 	}
