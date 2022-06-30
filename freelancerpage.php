@@ -151,8 +151,7 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
                    <div class="price">$2.00</div>
                    <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
+                   <a href="#" class="description">Go to Freelancer Profile</a>
                    </div>
                 </div>
              
@@ -171,8 +170,7 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
                    <div class="price">$2.00</div>
                    <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
+                   <a href="#" class="description">Go to Freelancer Profile</a>
                    </div>
                 </div>
              
@@ -191,8 +189,7 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
                    <div class="price">$2.00</div>
                    <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
+                   <a href="#" class="description">Go to Freelancer Profile</a>
                    </div>
                 </div>
              
@@ -211,8 +208,7 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
                    <div class="price">$2.00</div>
                    <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
+                   <a href="#" class="description">Go to Freelancer Profile</a>
                    </div>
                 </div>
              
@@ -231,8 +227,7 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
                    <div class="price">$2.00</div>
                    <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
+                   <a href="#" class="description">Go to Freelancer Profile</a>
                    </div>
                 </div>
              
@@ -251,8 +246,7 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
                    <div class="price">$2.00</div>
                    <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
+                   <a href="#" class="description">Go to Freelancer Profile</a>
                    </div>
                 </div>
              
