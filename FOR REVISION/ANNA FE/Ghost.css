@@ -2,9 +2,8 @@
 body {
   background: #FEEEE2;
 }
-
 .top {
-  margin: 5%;
+  margin: 3%;
   justify-content: center;
 
 }
@@ -166,7 +165,7 @@ h1 {
   font-family: "Montserrat", serif;
   color: #D4C2B4;
   text-align: center;
-  font-size: 12vw;
+  font-size: 10vw;
   font-weight: 200;
   margin: 0;
   text-shadow: -1px 0 #BFC0C0, 0 1px #BFC0C0, 1px 0 #BFC0C0, 0 -1px #BFC0C0;
@@ -186,7 +185,7 @@ p {
   text-align: center;
   font-family: "Montserrat", serif;
   color: #766c63;
-  font-size: 1.3rem;
+  font-size: 2vw;
   font-weight: 300;
   margin-top: -20px;
 }
@@ -196,7 +195,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  text-align: center;
 }
 
 .btn {
@@ -212,14 +211,35 @@ p {
   box-shadow: 0 0 50px rgb(148, 148, 148);
   width: 12vw;
   cursor: pointer;
+  text-decoration: none;
   
 }
-@media only screen and (max-width: 600px) {
 
-}
 .btn:hover {
   transform: scale(1.2);
   transition: all .2s linear;
   background-color: #1b9a12;
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .buttons{
+    display: block;
+    align-items: center;
+    width:30vw;
+    margin-left: 40%;
+  }
+  .btn{
+    padding: 3%;
+    margin: 3%;
+    font-size: 90%;
+    width: 60%;
+    justify-content: center;
+    align-content: center;
+    display: block;
+  }
+  p{
+    font-size: 3vw;
+  }
+}
+
