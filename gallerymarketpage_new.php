@@ -16,7 +16,7 @@
     <script src="https://kit.fontawesome.com/a7db501430.js" crossorigin="anonymous"></script>
 
     <?php
-        include 'include/navigation.html';
+        include 'include/navbarnew.php';
     ?>
 </head>
 
