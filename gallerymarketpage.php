@@ -97,7 +97,35 @@
                       <div class="price">$2.00</div>
                    </div>
              
-                   
+                   <div class="product" data-name="p-2">
+                      <img src="img/art1.jpg" alt="">
+                      <h3>onions</h3>
+                      <div class="price">$2.00</div>
+                   </div>
+             
+                   <div class="product" data-name="p-3">
+                      <img src="img/art1.jpg" alt="">
+                      <h3>tomatoes</h3>
+                      <div class="price">$2.00</div>
+                   </div>
+             
+                   <div class="product" data-name="p-4">
+                      <img src="img/art1.jpg" alt="">
+                      <h3>brinjal</h3>
+                      <div class="price">$2.00</div>
+                   </div>
+             
+                   <div class="product" data-name="p-5">
+                      <img src="img/art1.jpg" alt="">
+                      <h3>broccoli</h3>
+                      <div class="price">$2.00</div>
+                   </div>
+             
+                   <div class="product" data-name="p-6">
+                      <img src="img/art1.jpg" alt="">
+                      <h3>potatoes</h3>
+                      <div class="price">$2.00</div>
+                   </div>
              
                 </div>
              
