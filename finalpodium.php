@@ -237,6 +237,5 @@
 		<!-- Footer -->
 		</div>
 		<!-- End of .container -->
-	</footer>
 </body>
 </html>
