@@ -97,35 +97,7 @@
                       <div class="price">$2.00</div>
                    </div>
              
-                   <div class="product" data-name="p-2">
-                      <img src="img/art1.jpg" alt="">
-                      <h3>onions</h3>
-                      <div class="price">$2.00</div>
-                   </div>
-             
-                   <div class="product" data-name="p-3">
-                      <img src="img/art1.jpg" alt="">
-                      <h3>tomatoes</h3>
-                      <div class="price">$2.00</div>
-                   </div>
-             
-                   <div class="product" data-name="p-4">
-                      <img src="img/art1.jpg" alt="">
-                      <h3>brinjal</h3>
-                      <div class="price">$2.00</div>
-                   </div>
-             
-                   <div class="product" data-name="p-5">
-                      <img src="img/art1.jpg" alt="">
-                      <h3>broccoli</h3>
-                      <div class="price">$2.00</div>
-                   </div>
-             
-                   <div class="product" data-name="p-6">
-                      <img src="img/art1.jpg" alt="">
-                      <h3>potatoes</h3>
-                      <div class="price">$2.00</div>
-                   </div>
+                   
              
                 </div>
              
@@ -153,104 +125,7 @@
                    </div>
                 </div>
              
-                <div class="preview" data-target="p-2">
-                   <i class="fas fa-times"></i>
-                   <img src="img/art1.jpg" alt="">
-                   <h3>organic onions</h3>
-                   <div class="stars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <span>( 250 )</span>
-                   </div>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                   <div class="price">$2.00</div>
-                   <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
-                   </div>
-                </div>
-             
-                <div class="preview" data-target="p-3">
-                   <i class="fas fa-times"></i>
-                   <img src="img/art1.jpg" alt="">
-                   <h3>organic tomatoes</h3>
-                   <div class="stars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <span>( 250 )</span>
-                   </div>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                   <div class="price">$2.00</div>
-                   <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
-                   </div>
-                </div>
-             
-                <div class="preview" data-target="p-4">
-                   <i class="fas fa-times"></i>
-                   <img src="img/art1.jpg" alt="">
-                   <h3>organic brinjal</h3>
-                   <div class="stars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <span>( 250 )</span>
-                   </div>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                   <div class="price">$2.00</div>
-                   <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
-                   </div>
-                </div>
-             
-                <div class="preview" data-target="p-5">
-                   <i class="fas fa-times"></i>
-                   <img src="img/art1.jpg" alt="">
-                   <h3>organic broccoli</h3>
-                   <div class="stars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <span>( 250 )</span>
-                   </div>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                   <div class="price">$2.00</div>
-                   <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
-                   </div>
-                </div>
-             
-                <div class="preview" data-target="p-6">
-                   <i class="fas fa-times"></i>
-                   <img src="img/art1.jpg" alt="">
-                   <h3>organic potatoes</h3>
-                   <div class="stars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                      <span>( 250 )</span>
-                   </div>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                   <div class="price">$2.00</div>
-                   <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
-                   </div>
+                
                 </div>
              
              </div>
