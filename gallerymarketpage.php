@@ -93,19 +93,19 @@
              
                    <div class="product" data-name="p-1">
                       <img src="img/art1.jpg" alt="">
-                      <h3>strawberries</h3>
+                      <h3>Oil Painting</h3>
                       <div class="price">$2.00</div>
                    </div>
              
                    <div class="product" data-name="p-2">
                       <img src="img/art1.jpg" alt="">
-                      <h3>onions</h3>
+                      <h3>Digital Painting</h3>
                       <div class="price">$2.00</div>
                    </div>
              
                    <div class="product" data-name="p-3">
                       <img src="img/art1.jpg" alt="">
-                      <h3>tomatoes</h3>
+                      <h3>Oil Painting</h3>
                       <div class="price">$2.00</div>
                    </div>
              
@@ -117,13 +117,13 @@
              
                    <div class="product" data-name="p-5">
                       <img src="img/art1.jpg" alt="">
-                      <h3>broccoli</h3>
+                      <h3>Oil Painting</h3>
                       <div class="price">$2.00</div>
                    </div>
              
                    <div class="product" data-name="p-6">
                       <img src="img/art1.jpg" alt="">
-                      <h3>potatoes</h3>
+                      <h3>Oil Painting</h3>
                       <div class="price">$2.00</div>
                    </div>
              
@@ -136,7 +136,7 @@
                 <div class="preview" data-target="p-1">
                    <i class="fas fa-times"></i>
                    <img src="img/art1.jpg" alt="">
-                   <h3>organic strawberries</h3>
+                   <h3>Oil Painting</h3>
                    <div class="stars">
                       <i class="fas fa-star"></i>
                       <i class="fas fa-star"></i>
@@ -148,15 +148,15 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
                    <div class="price">$2.00</div>
                    <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
+                   <a href="https://www.facebook.com/camille.gudio" class="facebook">Facebook</a>
+                      <a href="#" class="cart">Instagram</a>
                    </div>
                 </div>
              
                 <div class="preview" data-target="p-2">
                    <i class="fas fa-times"></i>
                    <img src="img/art1.jpg" alt="">
-                   <h3>organic onions</h3>
+                   <h3>Oil Painting</h3>
                    <div class="stars">
                       <i class="fas fa-star"></i>
                       <i class="fas fa-star"></i>
@@ -168,15 +168,15 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
                    <div class="price">$2.00</div>
                    <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
+                   <a href="#" class="facebook">Facebook</a>
+                      <a href="#" class="cart">Instagram</a>
                    </div>
                 </div>
              
                 <div class="preview" data-target="p-3">
                    <i class="fas fa-times"></i>
                    <img src="img/art1.jpg" alt="">
-                   <h3>organic tomatoes</h3>
+                   <h3>Oil Painting</h3>
                    <div class="stars">
                       <i class="fas fa-star"></i>
                       <i class="fas fa-star"></i>
@@ -188,8 +188,8 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
                    <div class="price">$2.00</div>
                    <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
+                   <a href="#" class="facebook">Facebook</a>
+                      <a href="#" class="cart">Instagram</a>
                    </div>
                 </div>
              
@@ -208,8 +208,8 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
                    <div class="price">$2.00</div>
                    <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
+                      <a href="#" class="facebook">Facebook</a>
+                      <a href="#" class="cart">Instagram</a>
                    </div>
                 </div>
              
@@ -228,8 +228,8 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
                    <div class="price">$2.00</div>
                    <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
+                   <a href="#" class="facebook">Facebook</a>
+                      <a href="#" class="cart">Instagram</a>
                    </div>
                 </div>
              
@@ -248,8 +248,8 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
                    <div class="price">$2.00</div>
                    <div class="buttons">
-                      <a href="#" class="buy">buy now</a>
-                      <a href="#" class="cart">add to cart</a>
+                   <a href="#" class="facebook">Facebook</a>
+                      <a href="#" class="cart">Instagram</a>
                    </div>
                 </div>
              
