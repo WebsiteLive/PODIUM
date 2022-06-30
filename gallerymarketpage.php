@@ -92,25 +92,25 @@
                 <div class="products-container">
              
                    <div class="product" data-name="p-1">
-                      <img src="images/art1.jpg" alt="">
+                      <img src="img/art1.jpg" alt="">
                       <h3>strawberries</h3>
                       <div class="price">$2.00</div>
                    </div>
              
                    <div class="product" data-name="p-2">
-                      <img src="images/art1.jpg" alt="">
+                      <img src="img/art1.jpg" alt="">
                       <h3>onions</h3>
                       <div class="price">$2.00</div>
                    </div>
              
                    <div class="product" data-name="p-3">
-                      <img src="images/art1.jpg" alt="">
+                      <img src="img/art1.jpg" alt="">
                       <h3>tomatoes</h3>
                       <div class="price">$2.00</div>
                    </div>
              
                    <div class="product" data-name="p-4">
-                      <img src="images/art1.jpg" alt="">
+                      <img src="img/art1.jpg" alt="">
                       <h3>brinjal</h3>
                       <div class="price">$2.00</div>
                    </div>
