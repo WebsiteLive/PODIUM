@@ -161,6 +161,7 @@ li{
     border-top: 1px solid #ddd;
     padding-top: 25px;
     margin-top: 25px;
+    
 }
 .product-side .list:first-child{
     padding-top: 0;
@@ -190,9 +191,15 @@ li{
         padding-left: 0;
         padding-right: 0;
     }
+
     .side-area{
-      position: none;
+      position:relative;
+      width: 100%;
+    
   }
+  
+  
+    
 }
 
 .side-title h3{
