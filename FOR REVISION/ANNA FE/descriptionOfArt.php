@@ -8,13 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="descriptionOfArt.css">
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-
-	
 	<title>Description of Art</title>
 </head>
 
 <body>
-	<br>
 	<br>
 	<h3>Description of Art</h3>
 	<br>
@@ -26,11 +23,9 @@
 		    <div class="col-sm-6">
 		    	<h4>The Virgin and Child with St Anne</h4>
 		    	<br>
-		    	<br>
 		    	<strong>Leonardo da Vinci</strong>
 		    	<br>
-		    	Oil on wood
-		    	<br>
+		    	<h5>Oil on wood</h5>
 		    	<em>168 x 130 cm (5 1/2 x 4 1/2 ft.)</em>
 		    	<br>
 		    	<br>
@@ -39,9 +34,8 @@
 		    	<br>
 		    	<br>
 		    	Here, he has arranged the figures as a pyramid set in a landscape. While the theme of the Virgin Mary, her mother (Anne), and Jesus was common, it is unusual for Mary to be portrayed in her mother's lap. The background landscape, whose crags are seemingly replicated in Anne's veil, virtually melts in its sfumato haze. The baby lamb is both a symbol of innocence and of Jesus' sacrifice for humanity, memorialized in John the Baptist's reference to Jesus as the "Lamb of God".</p>
-		    	<br> 
 		      	<div class="text-center">
-		    		<a class="btn btn-lg btn-dark rounded-pill" href="#" role="button">Go to Artist's page</a>
+		    		<a class="btn btn-dark rounded-pill" href="#" role="button" style="font-size:smaller;">Go to Artist's page</a>
 		   		</div>
 		    </div>
 		</div>
