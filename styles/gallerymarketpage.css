@@ -543,7 +543,7 @@ body{
 }
 
 .container .products-container .product img{
-  height: 20rem;
+  height: 10rem;
 }
 
 .container .products-container .product:hover img{
