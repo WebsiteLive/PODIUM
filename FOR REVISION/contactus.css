@@ -2,7 +2,7 @@ body{
     background-image: url(images/background.png);
     background-size: cover;
     background-position: center;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family:'Montserrat', serif;
 }
 
 .container{
@@ -22,23 +22,29 @@ body{
     border-radius: 20px 20px 0px 0px;
 }
 
-h3, h4{
+h3{
     padding-left: 10px;
     margin-top: 10px;
     margin-bottom: 3px;
-}
-
-span{
-    background-color: #e4ecef;
-    padding: 2px;
+    font-size: 3vw;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: -3px 0 #080808, 0 1px #080808, 1px 0 #080808, 0 -3px #080808;
+    color: white;
 }
 
 h4{
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 3px; 
+    font-weight: 700;
     font-style: italic;
 }
 
+
+
 .contact{
-    background-color: rgba(242,236,232, 0.7);
+    background-color: rgba(211, 116, 53, 0.8);
     border-radius: 0px 0px 20px 20px;
     padding: 30px;
 }
