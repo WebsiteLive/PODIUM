@@ -13,10 +13,11 @@
 	
 
 	<title>Description of Art</title>
+	
 </head>
 
 <body>
-
+	
 	<div class="container">
 		<div class="col-sm-12"> Description of Art</div>
 	</div>	
