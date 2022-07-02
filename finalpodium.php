@@ -14,13 +14,14 @@
 	<!--fontawesome file link-->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	<title>HOME</title>
+	<?php
+		include 'include/navbarnew.php';
+	?>
 </head>
 <body>
 	<!--NAVIGATION BAR-->
 	
-	<?php
-		include 'include/navbarnew.php';
-	?>
+	
 
 	<!--IMAGE SLIDER-->
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

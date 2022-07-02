@@ -9,6 +9,9 @@
 </head>
 <body class="body">
 <div class="container ">
+<?php
+		include 'include/navbarnew.php';
+	?>
   <div class="row justify-content-center">
     <div class="col-sm-4 signup_form">
       <h2>Sign Up</h2>
