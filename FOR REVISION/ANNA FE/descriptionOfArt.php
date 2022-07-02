@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="descriptionOfArt.css">
@@ -10,20 +11,24 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
 
 	
+
 	<title>Description of Art</title>
 </head>
 
 <body>
+
 	<div class="container">
 		<div class="col-sm-12"> Description of Art</div>
 	</div>	
 	
+
 	<div class="container">	  
 		<div class="row justify-content-around">
 		    <div class="col-sm-6">
 		    	<img class="img-fluid" src="sample.jpg" alt="artwork">
 		    </div>
 		    <div class="col-sm-6">
+
 				<div class ="container">
 					<div class="text">
 						<h4>The Virgin and Child with St Anne</h4>
@@ -47,6 +52,7 @@
 		</div>
 	</div>
 		
+
 
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

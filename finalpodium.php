@@ -8,38 +8,20 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="css/finalpodium.css"> 
+	<link rel="stylesheet" type="text/css" href="styles/finalpodium.css"> 
 	<!--customized css file link-->
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css"> 
 	<!--fontawesome file link-->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	<title>HOME</title>
+	<?php
+		include 'include/navbarnew.php';
+	?>
 </head>
 <body>
 	<!--NAVIGATION BAR-->
 	
-	<nav class="navbar sticky-navbar navbar-expand-lg navbar-light" style="background-color: #65453A;">
-		<a class="navbar-brand" href="#"><img src="photos/logo2-1.jpg" class="logo"></a>
-		<button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link active" href="#">Account</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+	
 
 	<!--IMAGE SLIDER-->
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -50,7 +32,7 @@
 		</ol>
 	    <div class="carousel-inner">
 	    	<div class="carousel-item active">
-	        	<img class="d-block w-100" src="photos/pastel.jpg" alt="PODIUM"> </video>
+	        	<img class="d-block w-100" src="img/pastel.jpg" alt="PODIUM"> </video>
 	        	<div class="carousel-caption d-md-block" style="color: #65453A;">
 				    <h5 class="animate__animated animate__slideInUp">PODIUM: Artist Freelancing Website</h5>
 				    <p class="animate__animated animate__slideInUp"><i>"Every artist was first an amateur."</i></p>
@@ -59,14 +41,14 @@
 				</div>
 	    	</div>
 		    <div class="carousel-item">
-		        <img class="d-block w-100" src="photos/gallery.jpg" alt="GALLERY">
+		        <img class="d-block w-100" src="img/gallery.jpg" alt="GALLERY">
 		        <div class="carousel-caption d-md-block">
 				    <h5>DREAM BIG AND LET YOUR ART SHINE</h5>
 				    <p><a href="#">Join Us Now!</a></p>
 				</div>
 		    </div>
 		    <div class="carousel-item">
-		        <img class="d-block w-100" src="photos/watercolor.gif" alt="ARTS">
+		        <img class="d-block w-100" src="img/watercolor.gif" alt="ARTS">
 		        <div class="carousel-caption d-md-block">
 				   <h5 class="animate__animated animate__backInRight">DREAM BIG AND LET YOUR ART SHINE</h5>
 				   <p class="animate__animated animate__backInLeft" id="cap">Become an explorer in a world full of arts, join us now for free to experience the first artist platform in the Philippines.</p>
@@ -89,15 +71,15 @@
 	<div class="container-fluid padding" style="padding: 7px; margin-top: 10px; color: #65453A; font-weight: normal;">
 		<div class="row text-center padding">
 			<div class="col-xs-12 col-sm-6 col-md-4">
-				<img src="photos/painter.jpeg" style="width: 300px; height: 190px;">
+				<img src="img/painter.jpeg" style="width: 300px; height: 190px;">
 				<p style="font-size: 20px; padding: 3px; margin-top: 10px;">Painting</p>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-4">
-				<img src="photos/drawing.jpg" style="width: 300px; height: 190px;">
+				<img src="img/drawing.jpg" style="width: 300px; height: 190px;">
 				<p style="font-size: 20px; padding: 3px;margin-top: 10px;">Drawing</p>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-4">
-				<img src="photos/digital.jpg" style="width: 300px; height: 190px;">
+				<img src="img/digital.jpg" style="width: 300px; height: 190px;">
 				<p style="font-size: 20px; padding: 3px;margin-top: 10px;">Digital Art</p>
 			</div>
 		</div>
@@ -108,7 +90,7 @@
 	<div class="container-fluid" style="padding-top: 75px;">
  		<div class="row" style="background-color: #d3d3d3;">
     		<div class="col display-4" style="font-size: 30px; padding-top: 120px; padding-left: 50px; width: 50%;">Do you want to earn while doing your passion at the comfort of your home?</div>
-   			<div class="col-xs" style="width: 50%;"><img src="photos/grid.jpg" style="width: 100%; height: 50vh; margin: 0px; padding-right: -10px;"></div>
+   			<div class="col-xs" style="width: 50%;"><img src="img/grid.jpg" style="width: 100%; height: 50vh; margin: 0px; padding-right: -10px;"></div>
   		</div>
   	</div>
 
