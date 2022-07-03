@@ -19,8 +19,8 @@
 <body>
 
     <?php
-        include 'include/navigation.html';
-    ?>
+		include 'include/navbarnew.php';
+	?>
 
     <!--Breadcrumbs-->
 
