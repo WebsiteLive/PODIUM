@@ -22,10 +22,10 @@
 					<a class="nav-link" href="#">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
+					<a class="nav-link" href="for revision/about.html">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
+					<a class="nav-link" href="for revision/contactus.php">Contact</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link active" id="loginbtn" onclick="loginmodal()">Account</a>
