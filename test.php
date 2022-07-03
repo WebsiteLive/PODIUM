@@ -1,6 +1,7 @@
 <?php
   include 'id_generator.php';
   $id=id_generator('$id');
+  $date=date('d/m/y');
   
 ?>
 <!DOCTYPE html><html>
@@ -17,7 +18,9 @@
     <div class="cointainer-fluid p-3">
     <h1>TEST</h1>
     <?php
-        echo $id;
+        echo $id."<br>";
+        
+        echo $date;
     ?>
     <table id="dbase">
      <tr>

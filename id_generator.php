@@ -3,6 +3,7 @@
         $month=date('m');
         $day=date('d');
         $yr=date('y');
+        
         $id="";
         for($i= 1; $i<=2 ; $i++){
             $letters = "QWERTYUIOPASDFGHJKLZXCVBNM";
