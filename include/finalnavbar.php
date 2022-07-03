@@ -45,7 +45,7 @@
                                     <label for="password">Password</label><br>
                                     <input type="password" class="form-control" id="password" name="password" required>
                                 </div>
-                                <a class="nav-link" href="signup.php">SIGN UP</a>
+                                <a class="nav-link" href="signup_page.php">SIGN UP</a>
                                 <input type="submit" value="LogIn">
                             </form>
 

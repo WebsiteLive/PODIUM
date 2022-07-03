@@ -1,4 +1,6 @@
 <?php
+  include 'id_generator.php';
+  $id=id_generator('$id');
   
 ?>
 <!DOCTYPE html><html>
@@ -14,6 +16,9 @@
 
     <div class="cointainer-fluid p-3">
     <h1>TEST</h1>
+    <?php
+        echo $id;
+    ?>
     <table id="dbase">
      <tr>
          <th>ID</th>
