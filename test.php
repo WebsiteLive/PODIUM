@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 </head>
 <body>
+<?php
+		include 'include/navbarnew.php';
+	?>
 
     <div class="cointainer-fluid p-3">
     <h1>TEST</h1>

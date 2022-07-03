@@ -1,4 +1,4 @@
-
+<div>
 <link rel="stylesheet" type="text/css" href="styles/finalpodium.css"> 
 <nav class="navbar sticky-navbar navbar-expand-lg navbar-light" style="background-color: #65453A;">
 		<a class="navbar-brand" href="#"><img src="img/logo2-1.jpg" class="logo"></a>
@@ -22,3 +22,4 @@
 			</ul>
 		</div>
 </nav>
+</div>
