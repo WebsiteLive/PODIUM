@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="contactus.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,700" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <br><br>
-            <h3><span>CONTACT US</span></h3>
-            <h4><span>Feel free to leave a message</span></h4>
+            <h3>CONTACT US</h3>
+            <h4>Feel free to leave a message</h4>
         </div>
         <div class="contact">
             <form action="#" method="post">

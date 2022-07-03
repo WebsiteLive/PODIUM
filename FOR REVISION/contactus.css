@@ -1,0 +1,100 @@
+body{
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    font-family:'Montserrat', serif;
+}
+
+.container{
+    width: 650px;
+    height: 95%;
+    margin: 3% 25%;
+    border-radius: 20px;
+    padding: 0 0 10px 0;
+    justify-content: center;
+}
+
+
+.header{
+    background-image: url(images/contactheader.jpg);
+    background-size: 100%;
+    background-position: center;
+    padding: 5px 20px 30px 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h3{
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 3vw;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: -3px 0 #080808, 0 1px #080808, 1px 0 #080808, 0 -3px #080808;
+    color: white;
+}
+
+h4{
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 3px; 
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+.contact{
+    background-color: rgb(81, 62, 43, 0.8);
+    border-radius: 0px 0px 20px 20px;
+    padding: 30px;
+}
+
+form{
+    margin: 5% 10% 0% 10%;
+}
+
+input, textarea{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    margin: 4px;
+}
+
+input{
+    margin-left: 20px;
+}
+
+textarea{
+    font-family: 'Montserrat', serif;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus{
+    border-bottom: 1px solid rgb(218, 151, 52);
+}
+
+label{
+    vertical-align: top;
+    padding-right: 2px;
+    font-size: 16px;
+}
+
+button{
+    text-align: center;
+    font-weight: bold;
+    background-color: #65453A;
+    color: #f2ece8;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+
+button:hover{
+    background-color: #26b024;
+	color: #f2ece8;
+}

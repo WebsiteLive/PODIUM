@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<!--Bootstrap file link-->
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -23,6 +24,7 @@
 		<?php
 			include 'include/finalnavbar.php'
 		?>
+
 	<!--IMAGE SLIDER-->
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 	    <ol class="carousel-indicators">
@@ -105,6 +107,7 @@
 	</div>
 
 	<!--FOOTER-->
+
 		<!-- Remove the container if you want to extend the Footer to full width. -->
 		<div class="my-5">
 		<!-- Footer -->
@@ -177,5 +180,6 @@
 		<!-- Footer -->
 		</div>
 		<!-- End of .container -->
+
 </body>
 </html>
