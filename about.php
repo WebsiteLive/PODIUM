@@ -3,9 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<title>About Us</title>
-	<link rel="stylesheet" type="text/css" href="about.css">
+	<link rel="stylesheet" type="text/css" href="styles/about.css">
 	</head>
 <body>
+	<?php
+		include 'include/finalnavbar.php';
+	?>
 	<div class="backimagee">
 		<div class="overlay">
 			<img src="girl.jpg" class="girl">

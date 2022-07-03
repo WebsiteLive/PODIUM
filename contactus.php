@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,700" rel="stylesheet">
 </head>
 <body>
+<?php
+		include 'include/finalnavbar.php';
+	?>
 
     <div class="container">
         <div class="header">

@@ -46,7 +46,7 @@
 		        <img class="d-block w-100" src="img/gallery.jpg" alt="GALLERY">
 		        <div class="carousel-caption d-md-block">
 				    <h5>DREAM BIG AND LET YOUR ART SHINE</h5>
-				    <p><a href="#">Join Us Now!</a></p>
+				    <p><a href="signup.php">Join Us Now!</a></p>
 				</div>
 		    </div>
 		    <div class="carousel-item">

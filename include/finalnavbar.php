@@ -12,23 +12,23 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	
 <nav class="navbar sticky-navbar navbar-expand-lg navbar-light" style="background-color: #65453A;">
-		<a class="navbar-brand" href="#"><img src="img/logo2-1.jpg" class="logo"></a>
+		<a class="navbar-brand" href="index.php"><img src="img/logo2-1.jpg" class="logo"></a>
 		<button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="index.php">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="for revision/about.html">About</a>
+					<a class="nav-link" href="about.php">About</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="contactus.php">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link active" id="loginbtn" onclick="loginmodal()">Account</a>
+					<a class="nav-link active" id="loginbtn" onclick="loginmodal()">LOGIN</a>
 				</li>
 			</ul>
 		</div>
