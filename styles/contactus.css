@@ -16,7 +16,7 @@ body{
 
 
 .header{
-    background-image: url(images/contactheader.jpg);
+    background-image: url('images/contactheader.jpg');
     background-size: 100%;
     background-position: center;
     padding: 5px 20px 30px 20px;

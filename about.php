@@ -11,7 +11,7 @@
 	?>
 	<div class="backimagee">
 		<div class="overlay">
-			<img src="girl.jpg" class="girl">
+			<img src="images/girl.jpg" class="girl">
 		</div>
 		<div class="text">
 			<h2>About Us</h2>
@@ -21,9 +21,9 @@
 			<p class="letter1">
 			For people who wants to explore the world full of arts and wants to look for commissions. First enter your email and click GET STARTED.</p>
 		<div class="icon">
-			<img src="facebook.png">
-			<img src="ig.png">
-			<img src="in.png">
+			<img src="images/facebook.png">
+			<img src="images/ig.png">
+			<img src="images/in.png">
 		</div>
 		</div>
 	</div>

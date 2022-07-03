@@ -28,7 +28,7 @@
 					<a class="nav-link" href="contactus.php">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link active" id="loginbtn" onclick="loginmodal()">LOGIN</a>
+					<a class="nav-link" id="loginbtn" onclick="loginmodal()">LOGIN</a>
 				</li>
 			</ul>
 		</div>

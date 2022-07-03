@@ -7,7 +7,7 @@
 	height: 100vh;
 	position: relative;
 	background-size: cover;
-	background-image: url('backimage.png');
+	background-image: url('images/backimage.png');
 }
 .girl{
 	width: 300px;
