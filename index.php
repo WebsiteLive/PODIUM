@@ -4,7 +4,7 @@
 <!DOCTYPE html><html>
 <head>
     <title>PODIUM</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,11 +14,11 @@
 	<link rel="stylesheet" type="text/css" href="styles/descriptionOfArt.css">
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
 </head>
-<body>
 
-  <?php
-		include 'include/navbarnew.php';
-	?>
+<body class="body">
+    <?php
+		include 'include/finalnavbar.php';
+    ?>
 
 </body>
 </html>

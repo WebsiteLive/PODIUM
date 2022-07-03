@@ -4,24 +4,26 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Bootstrap file link-->
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!--JavaScript online link-->
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="styles/finalpodium.css"> 
 	<!--customized css file link-->
-	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css"> 
+	<link rel="stylesheet" type="text/css" href="styles/finalpodium.css"> 
 	<!--fontawesome file link-->
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css"> 
+	<!--Online link for text animation-->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	<title>HOME</title>
-	<?php
-		include 'include/navbarnew.php';
-	?>
 </head>
 <body>
 	<!--NAVIGATION BAR-->
-	
-	
+		<?php
+			include 'include/finalnavbar.php'
+		?>
 
 	<!--IMAGE SLIDER-->
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -105,51 +107,79 @@
 	</div>
 
 	<!--FOOTER-->
-	<center>
-	<footer class="page-footer font-small cyan darken-3" style="background-color: #FEEEE2; padding: 30px;">
 
-	  <!-- Footer Elements -->
-	  <div class="container">
+		<!-- Remove the container if you want to extend the Footer to full width. -->
+		<div class="my-5">
+		<!-- Footer -->
+		<footer class="text-center text-white" style="background-color: #65453A">
+			<!-- Grid container -->
+			<div>
+			<!-- Section: Links -->
+			<section class="mt-5">
+				<!-- Grid row-->
+				<div class="row text-center justify-content-center pt-5">
+				<!-- Grid column -->
+				<div class="col-md-2">
+					<h6 class="text-uppercase font-weight-bold">
+					<a href="#!" class="text-white">Home</a>
+					</h6>
+				</div>
+				<!-- Grid column -->
 
-	    <!-- Grid row-->
-	    <div class="row">
+				<!-- Grid column -->
+				<div class="col-md-2">
+					<h6 class="text-uppercase font-weight-bold">
+					<a href="#!" class="text-white">About</a>
+					</h6>
+				</div>
+				<!-- Grid column -->
 
-	      <!-- Grid column -->
-	      <div class="col-md-12">
-			 <div class="display-flex" style="margin-bottom: 40px; padding-left: 70px; padding-right:120px ">
-	        	<a href="#" style="color: #000000; padding-right: 65px;text-decoration: none; font-size: 20px;">Home</a>
-	        	<a href="#" style="color: #000000; padding: 50px; text-decoration: none; font-size: 20px;">Contact</a>
-	        	<a href="#" style="color: #000000; padding-left: 70px; text-decoration: none; font-size: 20px;">About</a>
-	        </div>
-	        <div class="mb-5">
-	          <!-- Facebook -->
-	          <a class="fb-ic">
-	            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-	          </a>
-	          <!--Linkedin -->
-	          <a class="li-ic">
-	            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-	          </a>
-	          <!--Instagram-->
-	          <a class="ins-ic">
-	            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-	          </a>
-	          <div class="horizontal"></div>
-	      </div>
-	      <!-- Grid column -->
-		
-	    </div>
-	    <!-- Grid row-->
-		
-	  </div>
-	  <!-- Footer Elements -->
-	  
-	  <!-- Copyright -->
-	  <div class="footer-copyright text-center" style="padding-right: 50px; margin-bottom: 10px; margin-top: -30px;">All rights reserved | Podium Freelancing Website 2022
-	  </div>
-	  <!-- Copyright -->
+				<!-- Grid column -->
+				<div class="col-md-2">
+					<h6 class="text-uppercase font-weight-bold">
+					<a href="#!" class="text-white">Contact</a>
+					</h6>
+				</div>
+				<!-- Grid column -->
+				</div>
+				<!-- Grid row-->
+			</section>
+			<!-- Section: Links -->
 
-	</footer>
-	</center>
+			<!-- Section: Social -->
+			<section class="text-center mb-5">
+				<a href="" class="text-white me-4">
+				<i class="fab fa-facebook-f"></i>
+				</a>
+				<a href="" class="text-white me-4">
+				<i class="fab fa-twitter"></i>
+				</a>
+				<a href="" class="text-white me-4">
+				<i class="fab fa-google"></i>
+				</a>
+				<a href="" class="text-white me-4">
+				<i class="fab fa-instagram"></i>
+				</a>
+				<a href="" class="text-white me-4">
+				<i class="fab fa-linkedin"></i>
+				</a>
+				<a href="" class="text-white me-4">
+				<i class="fab fa-github"></i>
+				</a>
+			</section>
+			<!-- Section: Social -->
+			</div>
+			<!-- Grid container -->
+			<hr class="my-5" />
+			<!-- Copyright -->
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+			All rights reserved | Podium Freelancing Website 2022
+			</div>
+			<!-- Copyright -->
+		</footer>
+		<!-- Footer -->
+		</div>
+		<!-- End of .container -->
+
 </body>
 </html>
