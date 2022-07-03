@@ -17,6 +17,7 @@
     <table id="dbase">
      <tr>
          <th>ID</th>
+         <th>Email</th>
          <th>Name</th>
          <th>Pass</th>
   
@@ -29,10 +30,12 @@
                 if (!empty($result)) {
                 while ($row = odbc_fetch_array($result) ) {
                     $id=$row["User_Id"];
+                    $email=$row["user_email"];
                     $name=$row["user_name"];
                     $pass=$row["user_password"];
                     
                     echo"<tr><td>$id</td>
+                    <td>$email</td>
                     <td>$name</td>
                     <td>$pass</td>
                     </tr>";

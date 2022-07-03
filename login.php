@@ -1,15 +1,14 @@
 <?php
     session_start();
-    $username =$_POST['username'];
+    $email =$_POST['email'];
     $password =$_POST['password'];
     /*$current= $_SESSION['uri'];*/
 
-    echo $username;
-    echo $password;
+
     include "dbcon.php";
     
     
-    $query = "select*from UserLogIn_Credentials WHERE user_name = '$username' ";
+    $query = "select*from UserLogIn_Credentials WHERE user_email = '$email' ";
     $result = odbc_exec($con,$query);
     
     if (empty($result)) {

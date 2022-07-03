@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 </head>
 <body class="body">
-<div class="container ">
 <?php
-		include 'include/navbarnew.php';
+		include 'include/finalnavbar.php';
 	?>
+<div class="container ">
+
   <div class="row justify-content-center">
     <div class="col-sm-4 signup_form">
       <h2>Sign Up</h2>

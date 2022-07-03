@@ -1,3 +1,4 @@
+<script src="include/scripts.js"></script>
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<!--JavaScript online link-->
@@ -27,8 +28,28 @@
 					<a class="nav-link" href="#">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link active" href="#">Account</a>
+					<a class="nav-link active" id="loginbtn" onclick="loginmodal()">Account</a>
 				</li>
 			</ul>
 		</div>
+        <div id="loginmodal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times</span>
+                            <h5 class="modal-title">LOGIN</h5>
+                            <form action="login.php" method="post">
+                                <div class="form-group">
+                                    <label for="username">Email:</label><br>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label><br>
+                                    <input type="password" class="form-control" id="password" name="password" required>
+                                </div>
+                                <a class="nav-link" href="signup.php">SIGN UP</a>
+                                <input type="submit" value="LogIn">
+                            </form>
+
+                        </div>
+                    </div>
+        
 	</nav>
