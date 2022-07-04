@@ -35,7 +35,7 @@
 		</ol>
 	    <div class="carousel-inner">
 	    	<div class="carousel-item active">
-	        	<img class="d-block w-100" src="img/pastel.jpg" alt="PODIUM"> </video>
+	        	<img class="d-block w-100" src="img/m.jpg" alt="PODIUM">
 	        	<div class="carousel-caption d-md-block" style="color: #65453A;">
 				    <h5 class="animate__animated animate__slideInUp">PODIUM: Artist Freelancing Website</h5>
 				    <p class="animate__animated animate__slideInUp"><i>"Every artist was first an amateur."</i></p>
@@ -44,18 +44,17 @@
 				</div>
 	    	</div>
 		    <div class="carousel-item">
-		        <img class="d-block w-100" src="img/gallery.jpg" alt="GALLERY">
+		        <img class="d-block w-100" src="img/pastel.jpg" alt="GALLERY">
 		        <div class="carousel-caption d-md-block">
 				    <h5>DREAM BIG AND LET YOUR ART SHINE</h5>
 				    <p><a href="signup.php">Join Us Now!</a></p>
 				</div>
 		    </div>
 		    <div class="carousel-item">
-		        <img class="d-block w-100" src="img/watercolor.gif" alt="ARTS">
+		        <img class="d-block w-100" src="img/wall.jpg" alt="ARTS">
 		        <div class="carousel-caption d-md-block">
 				   <h5 class="animate__animated animate__backInRight">DREAM BIG AND LET YOUR ART SHINE</h5>
 				   <p class="animate__animated animate__backInLeft" id="cap">Become an explorer in a world full of arts, join us now for free to experience the first artist platform in the Philippines.</p>
-				    <p class="animate__animated animate__zoomIn" style="animation-delay: 0.5s;"><a href="#">Join Us Now!</a></p>
 				</div>
 		    </div>
 	  	</div>
