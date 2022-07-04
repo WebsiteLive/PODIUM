@@ -21,7 +21,9 @@
         while ($row = odbc_fetch_array($result) ) {
             $user_password=$row["user_password"];
             if($user_password==$password){
-                echo "Success";
+                $_SESSION['User_Id'] = $row['User_Id'];
+                echo $_SESSION['User_Id'];
+                header("Location:gallerymarketpage_new.php");
             }
             else{
                 echo"BOBO MALI";

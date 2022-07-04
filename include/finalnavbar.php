@@ -17,19 +17,46 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="index.php">Home</a>
+			<ul id="navs" class="navbar-nav ml-auto">
+				<li class="nav-item" id="nav-item">
+					<a class="nav-link active" href="index.php">Home</a>
 				</li>
-				<li class="nav-item">
+				<?php
+					if(isset($_SESSION['User_Id'])){
+						
+						echo '<li class="nav-item"id="nav-item">
+						<a class="nav-link" href="">Freelancers</a>
+						</li><li class="nav-item"id="nav-item">
+						<a class="nav-link" href="">Market Gallery</a>
+						</li>';
+					}
+					else{
+					
+					}
+				?>
+				<li class="nav-item"id="nav-item">
 					<a class="nav-link" href="about.php">About</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item"id="nav-item">
 					<a class="nav-link" href="contactus.php">Contact</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" id="loginbtn" onclick="loginmodal()">LOGIN</a>
-				</li>
+				<?php
+					if(isset($_SESSION['User_Id'])){
+						
+						echo '<li class="nav-item"id="nav-item">
+						<a class="nav-link" href="">Be a FreeLancer</a>
+						</li><li class="nav-item"id="nav-item">
+						<a class="nav-link" href="">Account</a>
+						</li>';
+					}
+					else{
+						
+						echo'<li class="nav-item"id="nav-item">
+						<a class="nav-link" id="loginbtn" onclick="loginmodal()">LOGIN</a>
+						</li>';
+					}
+				?>
+				
 			</ul>
 		</div>
         <div id="loginmodal" class="modal">
@@ -53,3 +80,18 @@
                     </div>
         
 	</nav>
+	<script>
+
+var header = document.getElementById("navs");
+var btns = header.getElementsByClassName("nav-link");
+
+console.log(btns.length);
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  console.log(current[0].className);
+  this.className += " active";
+  });
+}
+</script>
