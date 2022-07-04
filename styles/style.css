@@ -453,3 +453,7 @@ header .navbar ul li a:hover{
    }
 
 }
+
+.forcommision ,.forsale{
+    display: none;
+}

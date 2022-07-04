@@ -46,7 +46,7 @@
 						echo '<li class="nav-item"id="nav-item">
 						<a class="nav-link" href="">Be a FreeLancer</a>
 						</li><li class="nav-item"id="nav-item">
-						<a class="nav-link" href="signout.php">Account</a>
+						<a class="nav-link" href="freelancepage.php">Account</a>
 						</li>';
 					}
 					else{

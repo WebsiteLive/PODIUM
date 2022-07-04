@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a7db501430.js" crossorigin="anonymous"></script>
-    
+
 </head>
 
 <body class="body">
@@ -35,22 +35,23 @@
                     <ul class="list">
                         <p></p>
                         <li>
+                            <form method="POST">
+                                <div class="items">
+                                    <a href="gallerymarketpage_new.html"><span class="item"
+                                            data-name="all">All</span></a>
+                                    <br>
+                                    <br>
+                                    <a href=""><span class="item" data-name="painting">Painting</span></a>
+                                    <br>
+                                    <br>
+                                    <a href=""><span class="item" data-name="drawing">Drawing</span></a>
+                                    <br>
+                                    <br>
+                                    <a href=""><span class="item" data-name="digitalart">Digital Art</span></a>
 
-                            <div class="items">
-                                <a href="gallerymarketpage_new.html"><span class="item" data-name="all">All</span></a>
-                                <br>
-                                <br>
-                                <a href=""><span class="item" data-name="painting">Painting</span></a>
-                                <br>
-                                <br>
-                                <a href=""><span class="item" data-name="drawing">Drawing</span></a>
-                                <br>
-                                <br>
-                                <a href=""><span class="item" data-name="digitalart">Digital Art</span></a>
 
-
-                            </div>
-
+                                </div>
+                            </form>
                     </ul>
 
                     <div>
@@ -73,70 +74,53 @@
 
 
                     <div class="container">
-
                         <h3 class="title"> organic products </h3>
-
                         <div class="products-container">
                             <div class="row">
-                                <div class="col-sm-6 mt-5">
-                                    <div class="product" data-name="p-1">
-                                         <img src="img/art1.jpg" alt="">
-                                        <h3>Oil Painting</h3>
-                                        <div class="price">$2.00</div>
-                                        <li><a href=""><i class="fa-brands fa-facebook"></i></a> John Doe</li>
-                                        <li><a href=""><i class="fa-brands fa-instagram-square"></i></a> John Doe</li>
-                                    </div>
+                                <?php
+                                    include 'dbcon.php';
+                                    if(!$con){
+                                        header("Location: Ghost.html");
+                                    }
+                                    else{
+                                        $query = "SELECT*FROM art_submission WHERE post_type='Sale'";
+                                        $result = odbc_exec($con,$query);
+                                        
+                                        
+                                        if (!empty($result)) {
+                                            while ($row = odbc_fetch_array($result)) {
+                                             $title=$row['item_title'];
+                                             $price=$row['price'];
+                                            include "view_items.php";
+                                        }
+
+                                    }
+                                    
+                                    
+                                }
+                                ?>
+                            </div>
+                        </div>
+                        <div class="products-preview">
+                            <div class="preview" data-target="p-1">
+                                <i class="fas fa-times"></i>
+                                <img src="img/art1.jpg" alt="">
+                                <h3>
+                                    <?php echo $title?>
+                                </h3>
+                               
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                                    dolorem.</p>
+                                <div class="price">$2.00</div>
+                                <div class="buttons">
+                                    <a href="#" class="description">Go to Description Page</a>
                                 </div>
-                                <div class="col-sm-6 mt-5">
-                                    <div class="product" data-name="p-1">
-                                         <img src="img/art1.jpg" alt="">
-                                        <h3>Oil Painting</h3>
-                                        <div class="price">$2.00</div>
-                                        <li><a href=""><i class="fa-brands fa-facebook"></i></a> John Doe</li>
-                                        <li><a href=""><i class="fa-brands fa-instagram-square"></i></a> John Doe</li>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 mt-5">
-                                    <div class="product" data-name="p-1">
-                                         <img src="img/art1.jpg" alt="">
-                                        <h3>Oil Painting</h3>
-                                        <div class="price">$2.00</div>
-                                        <li><a href=""><i class="fa-brands fa-facebook"></i></a> John Doe</li>
-                                        <li><a href=""><i class="fa-brands fa-instagram-square"></i></a> John Doe</li>
-                                    </div>
-                                </div>
-                                
-                                
                             </div>
                         </div>
 
-
-
                     </div>
 
-                    <div class="products-preview">
 
-                        <div class="preview" data-target="p-1">
-                            <i class="fas fa-times"></i>
-                            <img src="img/art1.jpg" alt="">
-                            <h3>Oil Painting</h3>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <span>( 250 )</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                            <div class="price">$2.00</div>
-                            <div class="buttons">
-                                <a href="#" class="description">Go to Description Page</a>
-                            </div>
-                        </div>
-
-
-                    </div>
                 </div>
 
             </div>
