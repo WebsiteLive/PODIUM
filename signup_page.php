@@ -20,29 +20,30 @@
     <div class="row justify-content-center">
       <div class="col-sm-4 signup_form">
         <h2>Sign Up</h2>
+        <?php if(isset($_GET['success'])):?>
+          <p><?php echo $_GET['success']?></P>
+        <?php endif?>
         <form action="signup.php" method="post">
-          <div class="sec1">
+          <div class="sec1" id="sec1">
             <div class="form-group">
               <label for="email">Email address</label>
               <input type="email" class="form-control" id="form_input" name="email">
-              <small class="form-text text-muted"></small>
-            </div>
-            <div class="form-group">
-              <label for="username">User Name:</label>
-              <input type="text" class="form-control" id="form_input">
-            </div>
-            <div class="form-group">
+
+              <label for="uname">User Name:</label>
+              <input type="text" class="form-control" name="uname">
+
               <label for="password">Password:</label>
-              <input id="pass" type="password" class="form-control">
+              <input id="pass" type="password" class="form-control" name="password">
             </div>
+          
             <div class="form-group">
               <label for="confirmpass">Confirm Password:</label>
               <input onKeyUp="Confirm_Pass()" type="password" class="form-control" id="confirmpassword">
               <p id="message"></p>
             </div>
-            <button id="nxtbtn" onclick="ShowNext()"class="signup_btn align-self-center">Next</button>
+         
           </div>
-          <div class="sec2">
+          <div class="sec2" id="sec2">
             <h3>Personal Information</h3>
             <div class="form-group">
               <label for="fname">First Name:</label>
@@ -68,10 +69,11 @@
               <label for="bday">Date of Birth:</label>
               <input type="date" class="form-control" id="form_input" name="bday">
             </div>
-            <button type="submit" class="signup_btn align-self-center">Sign Up</button>
+            <input type="submit" class="signup_btn align-self-center" value="SignUp"></input>
           </div>
-
         </form>
+        <button id="nxtbtn" onClick="ShowNext()"class="signup_btn align-self-center">Next</button>
+        <button id="bckbtn" onClick="ShowNext()"class="signup_btn align-self-center" style="display:none;">Back</button>
       </div>
     </div>
   </div>
@@ -99,10 +101,26 @@
     }
 
     function ShowNext(){
-      var sec1 = document.getElementById("sec1");
-      var sec2 = document.getElementById("sec2");
+      let sec1 = document.getElementById("sec1");
+      let sec2 = document.getElementById("sec2");
+      var btn = document.getElementById("nxtbtn");
+      var back = document.getElementById("bckbtn");
       
-      sec2.style.display="block"
+      btn.onclick=function(){
+        console.log(1);
+        sec2.style.display="block"; 
+        sec1.style.display="none";  
+        btn.style.display="none"; 
+        back.style.display="block";   
+      }
+      back.onclick=function(){
+        console.log(1);
+        sec2.style.display="none"; 
+        sec1.style.display="block";  
+        btn.style.display="block"; 
+        back.style.display="none";   
+      }
+      
     }
   </script>
 
