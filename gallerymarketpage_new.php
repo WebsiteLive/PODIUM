@@ -77,26 +77,25 @@
                         <h3 class="title">Gallery Market</h3>
                         <div class="products-container">
                             <div class="row">
-                                <?php
-                                    include 'dbcon.php';
-                                    if(!$con){
-                                        header("Location: Ghost.html");
+                            <?php
+                            include 'dbcon.php';
+                            if(!$con){
+                                header("Location: Ghost.html");
+                            }
+                            else{
+                                $query = "SELECT*FROM art_submission WHERE post_type='Sale'";
+                                $result = odbc_exec($con,$query);
+                                        
+                                        
+                                if (!empty($result)) {
+                                    while ($row = odbc_fetch_array($result)) {
+                                    $id=$row['thread_Id'];    
+                                    $title=$row['item_title'];
+                                    $price=$row['price'];
+                                    $img_url=$row['item_imgurl'];
+                                    $desc=$row['post_description'];
+                                    include "view_items.php";
                                     }
-                                    else{
-                            
-                                        if (!empty($result)) {
-                                            if((array_key_exists('Draw', $_POST))){
-                                                $query = "SELECT*FROM art_submission WHERE post_type='Sale'AND item_type='Drawing'";
-                                                $result = odbc_exec($con,$query);
-                                                while ($row = odbc_fetch_array($result)) {
-                                                $id=$row['thread_Id'];    
-                                                $title=$row['item_title'];
-                                                $price=$row['price'];
-                                                $img_url=$row['item_imgurl'];
-                                                include "view_items.php";
-                                            }
-                                        }
-
                                     }
                                     
                                     

@@ -1,5 +1,5 @@
 <div class="products-preview">
-    <div class="preview" data-target="<?php ECHO $id?>">
+    <div class="preview" data-target="p-1">
         <i class="fas fa-times"></i>
         <img src="<?php ECHO $img_url?>" alt="">
         <h3>
