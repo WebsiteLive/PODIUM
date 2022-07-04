@@ -1,48 +1,32 @@
 <?php
     include 'dbcon.php';
-    $img=$_FILES['imgfile'];
-
-    $img_name=$img['name'];
-    $img_size=$img['size'];
-    $img_tmp=$img['tmp_name'];
-    $error=$img['error'];
-
-
-    if($error===0){
-        $img_ex=pathinfo($img_name, PATHINFO_EXTENSION);
-        $img_ex_lc=strtolower($img_ex);
-        $allowed_exs=ARRAY("jpeg","jpg","png");
-
-        if(in_array($img_ex_lc,$allowed_exs)){
-            
-            $new_img_name=uniqid("img", true).'.'.$img_ex_lc;
-            $img_upload_path='uploads/'.$new_img_name;
-            move_uploaded_file($img_tmp,$img_upload_path);
-            echo $new_img_name;
-        }
-        else{
-            
-            /*code here*/
-        }
-
-      
-    }
-    else{
-        header("Location: Ghost.html");
-    }
-   
+    include 'getimgurl.php';
+    include 'id_generator.php';
+    $creator="104935060149";
+    $thread_id=id_generator('$id');
+    $item_type="test";
+    $post_type="test";
+    $post_caption="test";
+    $post_description="test";
+    $prize="test";
+    $date=date('d/m/y');
+       
     
-    /*
     if(!$con){
         header("Location: Ghost.html");
     }
     else{
-        if(empty($_POST['imgfile'])){
-            echo"1";
-        }else{ 
-            echo"2";
-            /*header("Location: Ghost.html");
-        }
+        $query = "INSERT INTO art_submission(Creator_Id
+        ,thread_Id
+        ,item_imgurl
+        ,item_type
+        ,post_type
+        ,post_caption
+        ,post_description
+        ,prize
+        ,date_published)VALUES('$creator','$thread_id','$img_upload_path','$item_type','$post_type','$post_caption','$post_description','$prize','$date')";
+        $result = odbc_exec($con,$query);
+    }
 
-    */
 ?>
+

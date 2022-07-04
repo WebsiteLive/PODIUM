@@ -21,7 +21,6 @@
     <?php
 		include 'include/finalnavbar.php';
     ?>
-
     <div class="row">
         <div class="col-sm-4">
             <aside class="side-area product-side side-shadow mt-5">

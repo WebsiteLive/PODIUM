@@ -9,7 +9,7 @@
     background-color: #D4C2B4;
    
 }
-#form_input{
+.form-group input{
     border-radius: 25px;
 }
 .signup_btn{
@@ -21,7 +21,15 @@
    
 }
 
-
-#sec2{
-    display: none;
+form div.sec2{
+    display:none;
 }
+
+@media screen and (max-width: 600px){
+    .body .container{
+        width: 80%;
+       
+    }
+}
+
+

@@ -39,3 +39,21 @@ function signupmodal(){
     }
   }
 }
+
+function Confirm_Pass(){
+  var pass = document.getElementById("password").value;
+  var confirmpass = document.getElementById("confirmpassword").value;
+  var mess= document.getElementById("message");
+
+  if(pass==confirmpass){
+    mess.textContent=" ";
+  }
+  else{
+    mess.style.backgroundColor="red";
+    mess.textContent="Password does not Match";
+    
+  }
+  
+
+
+}

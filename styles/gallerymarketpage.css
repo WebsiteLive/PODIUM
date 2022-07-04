@@ -40,7 +40,6 @@
     font-weight: normal;
     color: #614538;
     position: relative;
-
 }
 .side-content{
     padding-left: 50px;
@@ -54,15 +53,11 @@
         padding-left: 0;
         padding-right: 0;
     }
-
     .side-area{
       position:relative;
       width: 100%;
-    
   }
-  
-  
-    
+   
 }
 
 .side-title h3{
