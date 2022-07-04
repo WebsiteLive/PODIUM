@@ -46,13 +46,12 @@
 						echo '<li class="nav-item"id="nav-item">
 						<a class="nav-link" href="">Be a FreeLancer</a>
 						</li><li class="nav-item"id="nav-item">
-						<a class="nav-link" href="">Account</a>
+						<a class="nav-link" href="signout.php">Account</a>
 						</li>';
 					}
 					else{
-						
 						echo'<li class="nav-item"id="nav-item">
-						<a class="nav-link" id="loginbtn" onclick="loginmodal()">LOGIN</a>
+						<a class="nav-link" id="loginbtn" onclick="loginmodal()">Login</a>
 						</li>';
 					}
 				?>
