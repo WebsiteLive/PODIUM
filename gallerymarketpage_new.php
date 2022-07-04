@@ -35,20 +35,20 @@
                     <ul class="list">
                         <p></p>
                         <li>
-                            <form method="POST">
+                            <form method="post">
                                 <div class="items">
-                                    <a href="gallerymarketpage_new.html"><span class="item"
+                                    <a type="submit" name= "all" href=""><span class="item"
                                             data-name="all">All</span></a>
                                     <br>
                                     <br>
-                                    <a href=""><span class="item" data-name="painting">Painting</span></a>
+                                    <a type="submit" name= "Paint" href=""><span class="item" data-name="painting">Painting</span></a>
                                     <br>
                                     <br>
-                                    <a href=""><span class="item" data-name="drawing">Drawing</span></a>
+                                    <a type="submit" name= "Draw" href=""><span class="item" data-name="drawing">Drawing</span></a>
                                     <br>
                                     <br>
-                                    <a href=""><span class="item" data-name="digitalart">Digital Art</span></a>
-
+                                    <a type="submit" name= "Digital" href=""><span class="item" data-name="digitalart">Digital Art</span></a>
+                                    <?php print_r($_POST);?>
 
                                 </div>
                             </form>
@@ -67,14 +67,14 @@
                     <div class="col-lg-12">
                         <div class="product-top d-flex justify-content-between align-items-center">
                             <div class="product-sec product-item">
-                                <h2 class="my-5">Gallery Market</h2>
+                                <h2 class="my-5"></h2>
                             </div>
                         </div>
                     </div>
 
 
                     <div class="container">
-                        <h3 class="title"> organic products </h3>
+                        <h3 class="title">Gallery Market</h3>
                         <div class="products-container">
                             <div class="row">
                                 <?php
@@ -83,15 +83,18 @@
                                         header("Location: Ghost.html");
                                     }
                                     else{
-                                        $query = "SELECT*FROM art_submission WHERE post_type='Sale'";
-                                        $result = odbc_exec($con,$query);
-                                        
-                                        
+                            
                                         if (!empty($result)) {
-                                            while ($row = odbc_fetch_array($result)) {
-                                             $title=$row['item_title'];
-                                             $price=$row['price'];
-                                            include "view_items.php";
+                                            if((array_key_exists('Draw', $_POST))){
+                                                $query = "SELECT*FROM art_submission WHERE post_type='Sale'AND item_type='Drawing'";
+                                                $result = odbc_exec($con,$query);
+                                                while ($row = odbc_fetch_array($result)) {
+                                                $id=$row['thread_Id'];    
+                                                $title=$row['item_title'];
+                                                $price=$row['price'];
+                                                $img_url=$row['item_imgurl'];
+                                                include "view_items.php";
+                                            }
                                         }
 
                                     }
@@ -101,22 +104,31 @@
                                 ?>
                             </div>
                         </div>
-                        <div class="products-preview">
-                            <div class="preview" data-target="p-1">
-                                <i class="fas fa-times"></i>
-                                <img src="img/art1.jpg" alt="">
-                                <h3>
-                                    <?php echo $title?>
-                                </h3>
-                               
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
-                                    dolorem.</p>
-                                <div class="price">$2.00</div>
-                                <div class="buttons">
-                                    <a href="#" class="description">Go to Description Page</a>
-                                </div>
-                            </div>
-                        </div>
+                        <?php
+                            include 'dbcon.php';
+                            if(!$con){
+                                header("Location: Ghost.html");
+                            }
+                            else{
+                                $query = "SELECT*FROM art_submission WHERE post_type='Sale'";
+                                $result = odbc_exec($con,$query);
+                                        
+                                        
+                                if (!empty($result)) {
+                                    while ($row = odbc_fetch_array($result)) {
+                                    $id=$row['thread_Id'];    
+                                    $title=$row['item_title'];
+                                    $price=$row['price'];
+                                    $img_url=$row['item_imgurl'];
+                                    $desc=$row['post_description'];
+                                    include "view_itemsdetails.php";
+                                    }
+                                    }
+                                    
+                                    
+                                }
+                                ?>
+                        
 
                     </div>
 
@@ -128,13 +140,16 @@
     </div>
 
 </body>
+
 <script type="text/javascript">
     let preveiwContainer = document.querySelector('.products-preview');
     let previewBox = preveiwContainer.querySelectorAll('.preview');
+  
 
     document.querySelectorAll('.products-container .product').forEach(product => {
         product.onclick = () => {
             preveiwContainer.style.display = 'flex';
+            
             let name = product.getAttribute('data-name');
             previewBox.forEach(preview => {
                 let target = preview.getAttribute('data-target');
