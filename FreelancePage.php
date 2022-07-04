@@ -82,12 +82,12 @@
 
       <div class="preview" data-target="p-2">
          <i class="fas fa-times"></i>
-         <form class="upload" style="display: block;">
-             <input type="file" name="">
+         <form action="add_items.php" enctype="multipart/form-data"method="post"class="upload" style="display: block;">
+             <input type="file" name="imgfile" required>
              <br>
              <br>
              <label>Type</label>
-             <input type="text" name="">
+             <input type="text" name="type">
              <br>
              <label>Dimension</label>
              <input type="text" name="">
@@ -103,10 +103,12 @@
               <input type="textarea" name="" placeholder="Insert your tagline..."><br><br>
               <label>Price</label>
               <input type="textarea" name="" placeholder="₱">
+
+              <div class="buttons">
+                  <input type="submit"class="buy" value="submit" name="submit"></input>
+               </div>
          </form>
-         <div class="buttons">
-            <a href="#" class="buy">Submit</a>
-         </div>
+         
       </div>
 
       <div class="preview" data-target="p-3">

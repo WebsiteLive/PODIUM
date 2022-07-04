@@ -426,7 +426,7 @@ header .navbar ul li a:hover{
    background: #111;
 }
 
-.products-preview .preview .buttons a.buy:hover{
+.products-preview .preview .buttons .buy:hover{
    background: #444;
    color:#fff;
 }
