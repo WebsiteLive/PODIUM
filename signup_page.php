@@ -27,18 +27,18 @@
           <div class="sec1" id="sec1">
             <div class="form-group">
               <label for="email">Email address</label>
-              <input type="email" class="form-control" id="form_input" name="email"require>
+              <input type="email" class="form-control" id="form_input" name="email"required>
 
               <label for="uname">User Name:</label>
-              <input type="text" class="form-control" name="uname"require>
+              <input type="text" class="form-control" name="uname"required>
 
               <label for="password">Password:</label>
-              <input id="pass" type="password" class="form-control" name="password" require>
+              <input id="pass" type="password" class="form-control" name="password" required>
             </div>
           
             <div class="form-group">
               <label for="confirmpass">Confirm Password:</label>
-              <input onKeyUp="Confirm_Pass()" type="password" class="form-control" id="confirmpassword"require>
+              <input onKeyUp="Confirm_Pass()" type="password" class="form-control" id="confirmpassword"required>
               <p id="message"></p>
             </div>
          
@@ -47,7 +47,7 @@
             <h3>Personal Information</h3>
             <div class="form-group">
               <label for="fname">First Name:</label>
-              <input type="text" class="form-control" id="form_input" name="fname"require>
+              <input type="text" class="form-control" id="form_input" name="fname" required>
             </div>
             <div class="form-group">
               <label for="mname">Middle Name:</label>
@@ -55,7 +55,7 @@
             </div>
             <div class="form-group">
               <label for="lname">Last Name:</label>
-              <input type="text" class="form-control" id="form_input" name="lname"require>
+              <input type="text" class="form-control" id="form_input" name="lname" required>
             </div>
             <div class="form-group">
               <label for="extname">Name Extension:</label>
@@ -63,11 +63,11 @@
             </div>
             <div class="form-group">
               <label for="address">Address:</label>
-              <input type="text" class="form-control" id="form_input" name="address"require>
+              <input type="text" class="form-control" id="form_input" name="address"required>
             </div>
             <div class="form-group">
               <label for="bday">Date of Birth:</label>
-              <input type="date" class="form-control" id="form_input" name="bday"require>
+              <input type="date" class="form-control" id="form_input" name="bday"required>
             </div>
             <input type="submit" class="signup_btn align-self-center" value="SignUp"></input>
           </div>
