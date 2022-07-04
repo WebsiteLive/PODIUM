@@ -23,6 +23,8 @@
         header("Location: Ghost.html");
     }
     else{
+     
+
         $query = "INSERT INTO UserLogin_Credentials(User_Id,user_email,user_name,user_password)
         VALUES('$user_id','$email','$uname','$pass')";
         $result = odbc_exec($con,$query);
