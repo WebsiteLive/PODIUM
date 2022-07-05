@@ -22,6 +22,12 @@
 	font-size: 25px;
 	text-shadow: 3px 2px #000000;
 }
+#text{
+	margin-top: -35rem;
+}
+.carousel-inner{
+	height: 86vh;
+}
 .carousel-item{
 	height: 100vh;
 	min-height: 300px;
@@ -36,7 +42,6 @@
 	font-size: 77px;
 	text-shadow: 3px 2px #fff;
 	letter-spacing: 2px;
-	margin-top: 40px;
 	font-weight: bold;
 	color: #65453A;
 }
@@ -121,19 +126,16 @@
 .w-100{
 	height: 100vh;
 }
-.modal {
-	display: none; /* Hidden by default */
-	position: fixed; /* Stay in place */
-	
-	padding-top: 100px; /* Location of the box */
-	left: 0;
-	top: 0;
-	width: 100%; /* Full width */
-	height: 100%; /* Full height */
-	overflow: auto; /* Enable scroll if needed */
-	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
+
+.modal{
+	cursor: pointer;
+}
+.modal-title{
+	color: #65453A;
+	font-size: 3rem;
+	text-align: center;
+}
+
 .modal-content {
 	background-color: #fefefe;
 	margin: 15% auto; /* 15% from the top and centered */
@@ -141,11 +143,10 @@
 	border: 1px solid #888;
 	width: 30%; /* Could be more or less, depending on screen size */
   }
-  
   /* The Close Button */
   .close {
 	color: #aaa;
-	float: right;
+	padding-left: 31rem;
 	font-size: 28px;
 	font-weight: bold;
   }
@@ -157,6 +158,31 @@
 	cursor: pointer;
   }
 /* media queries  */
+.button-login{
+	float: right;
+	background-color: #65453A;
+	color: #fff;
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	border-radius: 10px;
+}
+.signup{
+	display: flex;
+	margin-top: 2rem;
+	text-align: center;
+	justify-content: center;
+}
+.description{
+	padding-top: 0.1rem;
+}
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 767px){
 	.modal-content {

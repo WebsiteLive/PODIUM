@@ -9,18 +9,43 @@
     background-color: #D4C2B4;
    
 }
+.signup h2{
+    text-align: center;
+}
+.sec1{
+    margin-top: 2rem;
+}
+.signup_btn{
+    float: right;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #65453A;
+    border-radius: 10px;
+}
+.signup_btn1{
+    float: left;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #65453A;
+    border-radius: 10px;
+}
 .form-group input{
     border-radius: 25px;
 }
-.signup_btn{
-    background-color: #65453A;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 25px;
-    outline: none;
-   
+.personal{
+    font-size: 1.2rem;
+    margin-top: 2rem;
 }
-
 form div.sec2{
     display:none;
 }

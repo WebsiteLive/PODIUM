@@ -58,7 +58,7 @@
 					}
 					else{
 						echo'<li class="nav-item"id="nav-item">
-						<a class="nav-link" id="loginbtn" onclick="loginmodal()">Login</a>
+						<a class="nav-link" id="loginbtn" onclick="loginmodal()" style="cursor:pointer;">Login</a>
 						</li>';
 					}
 				?>
@@ -83,6 +83,7 @@
 			</form>
 
 		</div>
+
 	</div>
 	<div id="freelancemodal" class="modal">
 		<div class="modal-content">
@@ -117,6 +118,7 @@
 					<label for="selfintro">Describe Your Self</label><br>
 					<input type="textarea" class="form-control" id="password" name="selfintro">
 				</div>
+
 
 				<input type="submit" value="Be A Freelancer Now!">
 			</form>

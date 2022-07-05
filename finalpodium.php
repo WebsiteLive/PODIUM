@@ -40,7 +40,7 @@
 	    	<div class="carousel-item active">
 	        	<img class="d-block w-100" src="img/m.jpg" alt="PODIUM">
 	        	<div class="carousel-caption d-md-block" style="color: #65453A;">
-				    <h5 class="animate__animated animate__slideInUp">PODIUM: Artist Freelancing Website</h5>
+				    <h5 class="animate__animated animate__slideInUp" id="text">PODIUM: Artist Freelancing Website</h5>
 				    <p class="animate__animated animate__slideInUp"><i>"Every artist was first an amateur."</i></p>
 				    <p class="animate__animated animate__slideInUp">&nbsp;&nbsp;&ndash; Ralph Waldo Emerson</p>
 				    <!--&nbsp; = space, &ndash; = en dash "-" -->
@@ -49,6 +49,7 @@
 		    <div class="carousel-item">
 		        <img class="d-block w-100" src="img/pastel.jpg" alt="GALLERY">
 		        <div class="carousel-caption d-md-block">
+
 				    <h5>DREAM BIG AND LET YOUR ART SHINE</h5>
 					<?php
 					if(isset($_SESSION['User_Id'])){
@@ -60,12 +61,13 @@
 					}
 				?>
 				    
+
 				</div>
 		    </div>
 		    <div class="carousel-item">
 		        <img class="d-block w-100" src="img/wall.jpg" alt="ARTS">
 		        <div class="carousel-caption d-md-block">
-				   <h5 class="animate__animated animate__backInRight">DREAM BIG AND LET YOUR ART SHINE</h5>
+				   <h5 class="animate__animated animate__backInRight" id="text">DREAM BIG AND LET YOUR ART SHINE</h5>
 				   <p class="animate__animated animate__backInLeft" id="cap">Become an explorer in a world full of arts, join us now for free to experience the first artist platform in the Philippines.</p>
 				</div>
 		    </div>
@@ -123,7 +125,7 @@
 		<!-- Remove the container if you want to extend the Footer to full width. -->
 		<div class="my-5">
 		<!-- Footer -->
-		<footer class="text-center text-white" style="background-color: #65453A">
+		<footer class="text-center text-white" style="background-color: #65453A; margin-bottom:-15rem;">
 			<!-- Grid container -->
 			<div>
 			<!-- Section: Links -->
