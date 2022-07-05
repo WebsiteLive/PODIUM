@@ -50,18 +50,19 @@
 			<?php
 					if(isset($_SESSION['User_Id'])){
 						$role=$_SESSION['user_type'];
+						$userid=$_SESSION['User_Id'];
 						if($role=='User'){
 							echo'<li class="nav-item"id="nav-item">
 							<a class="nav-link" id="freelancebtn" onclick="freelancemodal()" >Be a FreeLancer</a>
 							</li>';
 
 							echo '<li class="nav-item"id="nav-item">
-							<a class="nav-link" href="freelancepage.php">Account</a>
+							<a class="nav-link" href="freelancepage.php?userid='.$userid.'">Account</a>
 							</li>';
 						}
 						else{
 						echo '<li class="nav-item"id="nav-item">
-						<a class="nav-link" href="freelancepage.php">Account</a>
+						<a class="nav-link" href="freelancepage.php?userid='.$userid.'">Account</a>
 						</li>';
 						}
 					}

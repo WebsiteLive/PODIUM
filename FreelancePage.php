@@ -1,3 +1,31 @@
+<?php
+      session_start();
+      include 'dbcon.php';
+
+      $id=$_SESSION['User_Id'];
+      
+      if(!$con){
+         header("Location: Ghost.html");
+     }
+     else{
+        $query = "SELECT user_basicinfo.User_Id,user_profile.Profile_img,user_profile.job_desc,user_profile.language,user_profile.fb_url,user_profile.ig_url,user_profile.linkedin_url
+        ,user_profile.self_description, user_basicinfo.first_name,user_basicinfo.first_name,user_basicinfo.last_name
+        FROM user_profile
+        JOIN user_basicinfo ON user_profile.User_Id=user_basicinfo.User_Id WHERE user_basicinfo.User_Id='$id'";
+        $result = odbc_exec($con,$query);
+        while ($row = odbc_fetch_array($result)) {
+         $img=$row['Profile_img'];
+         $intro=$row['self_description'];
+         $jd=$row['job_desc'];
+         $name=$row['first_name']." ".$row['last_name'];
+
+
+        }
+
+     }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,16 +42,16 @@
 <body>
    <header>
       <div class="user">
-         <img src="images/profile.jpg" alt="">
-         <h3 class="name">Adrian Pulao</h3>
-         <p class="position">Digital Artist</p>
+         <img src="<?php echo $img?>" alt="">
+         <h3 class="name"><?php echo $name?></h3>
+         <p class="position"><?php echo $jd?></p>
       </div>
       <nav class="navbar">
          <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#back">Back</a></li>
+            <li><a href="gallerymarketpage_new.php">Back</a></li>
             <li><a href="signout.php">Logout</a></li>
          </ul>
       </nav>
@@ -33,10 +61,8 @@
    <section class="home" id="home">
 
       <h3>HI THERE!</h3>
-      <h1>I'm <span>Adrian Pulao</span></h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae explicabo cupiditate in aliquam assumenda,
-         saepe necessitatibus dignissimos dolore molestias distinctio! Lorem ipsum dolor sit amet Lorem ipsum dolor sit
-         amet.</p>
+      <h1>I'm <span><?php echo $name?></span></h1>
+      <p><?php echo $intro?></p>
    </section>
    <section class="about" id="about">
 
@@ -46,7 +72,7 @@
             <h3><span>Name: </span>Adrian Pulao</h3>
             <h3><span>Age: </span>20</h3>
             <h3><span>Qualification: </span>BMS</h3>
-            <h3><span>Position: </span>Front End Web Developer</h3>
+            <h3><span>Position: </span><?php echo $jd?></h3>
             <h3><span>Language: </span>Tagalog/Englsih</h3>
          </div>
       </div>
@@ -60,13 +86,13 @@
          <div class="products-container">
 
             <div class="product" data-name="p-1">
-               <img src="images/img1.jpg" alt="">
+               <img src="images/painting.jpg" alt="">
                <h3>strawberries</h3>
                <div class="price">$2.00</div>
             </div>
 
             <div class="product" data-name="p-2">
-               <img src="images/dibil.png" alt="">
+               <img src="img/dibil.png" alt="">
                <h3>Upload File</h3>
             </div>
 
