@@ -51,7 +51,7 @@
 					}
 					else{
 						echo'<li class="nav-item"id="nav-item">
-						<a class="nav-link" id="loginbtn" onclick="loginmodal()">Login</a>
+						<a class="nav-link" id="loginbtn" onclick="loginmodal()" style="cursor:pointer;">Login</a>
 						</li>';
 					}
 				?>
@@ -61,7 +61,7 @@
         <div id="loginmodal" class="modal">
                         <div class="modal-content">
                             <span class="close">&times</span>
-                            <h5 class="modal-title">LOGIN</h5>
+                            <h5 class="modal-title">LOGIN FORM</h5>
                             <form action="login.php" method="post">
                                 <div class="form-group">
                                     <label for="username">Email:</label><br>
@@ -71,8 +71,13 @@
                                     <label for="password">Password</label><br>
                                     <input type="password" class="form-control" id="password" name="password" required>
                                 </div>
-                                <a class="nav-link" href="signup_page.php">SIGN UP</a>
-                                <input type="submit" value="LogIn">
+                                <input type="submit" value="LogIn" class="button-login">
+								<br>
+								<br>
+								<div class="signup">
+								<p class="description">Want to join our growing community?</p>
+								<a class="nav-link" href="signup_page.php">SIGN UP</a>
+								</div>
                             </form>
 
                         </div>
