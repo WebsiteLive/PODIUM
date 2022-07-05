@@ -27,7 +27,7 @@
 						echo '<li class="nav-item"id="nav-item">
 						<a class="nav-link" href="">Freelancers</a>
 						</li><li class="nav-item"id="nav-item">
-						<a class="nav-link" href="">Market Gallery</a>
+						<a class="nav-link" href="gallerymarketpage_new.php">Market Gallery</a>
 						</li>';
 					}
 					else{

@@ -50,7 +50,16 @@
 		        <img class="d-block w-100" src="img/pastel.jpg" alt="GALLERY">
 		        <div class="carousel-caption d-md-block">
 				    <h5>DREAM BIG AND LET YOUR ART SHINE</h5>
-				    <p><a href="signup.php">Join Us Now!</a></p>
+					<?php
+					if(isset($_SESSION['User_Id'])){
+						
+						
+					}
+					else{
+						echo '<p><a href="signup.php">Join Us Now!</a></p>';
+					}
+				?>
+				    
 				</div>
 		    </div>
 		    <div class="carousel-item">
