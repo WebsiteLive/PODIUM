@@ -88,7 +88,7 @@
 		<div class="modal-content">
 			<span class="close">&times</span>
 			<h5 class="modal-title">Be a FreeLancer!</h5>
-			<form action="profile.php" method="post">
+			<form action="profile.php" enctype="multipart/form-data" method="post">
 				<div class="form-group">
 				<label for="imgfile">Profile Picture</label><br>
 				<input type="file" name="imgfile" required>
