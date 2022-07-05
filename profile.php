@@ -10,8 +10,7 @@
     $li=$_POST['LIurl'];
     $intro=$_POST['selfintro'];
 
-    print_r($_POST);
-    echo"$intro";
+   
 
     if(!$con){
         header("Location: Ghost.html");
@@ -27,6 +26,7 @@
         WHERE User_Id='$id'";
         $result = odbc_exec($con,$query2);
 
+        header("Location: gallerymarketpage_new.php");
     }
      
 
