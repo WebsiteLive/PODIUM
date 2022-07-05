@@ -13,9 +13,6 @@
     $ext_name=$_POST['extname'];
     $birth=$_POST['bday'];
     
-    echo "<pre>";
-    print_r($_POST);
-    echo "</pre>";
 
     echo $user_id,$email,$fname, $mname, $lname, $address,$birth;
 

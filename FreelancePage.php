@@ -24,6 +24,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#back">Back</a></li>
+            <li><a href="signout.php">Logout</a></li>
          </ul>
       </nav>
    </header>
