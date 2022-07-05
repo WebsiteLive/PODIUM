@@ -4,10 +4,7 @@
     $password =$_POST['password'];
     /*$current= $_SESSION['uri'];*/
 
-
     include "dbcon.php";
-    
-    
     $query = "select*from UserLogIn_Credentials WHERE user_email = '$email' ";
     $result = odbc_exec($con,$query);
     
