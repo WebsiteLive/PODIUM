@@ -16,9 +16,7 @@
     $date=date('d/m/y');
     $title=$_POST['title'];
     
-    echo $creator;
-
-    print_r($_POST);
+  
     
     if(!$con){
         header("Location: Ghost.html");
@@ -36,7 +34,7 @@
         ,date_published
         ,item_title)VALUES('$creator','$thread_id','$img_upload_path','$dimension','$item_type','$post_type','$post_caption','$post_description','$price','$date','$title')";
         $result = odbc_exec($con,$query);
-        
+        header("Location: Freelancepage.php");
     }
     
 ?>

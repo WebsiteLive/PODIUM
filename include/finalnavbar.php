@@ -32,7 +32,7 @@
 					if(isset($_SESSION['User_Id'])){
 						
 						echo '<li class="nav-item"id="nav-item">
-						<a class="nav-link" href="">Freelancers</a>
+						<a class="nav-link" href="browsefreelancer.php">Freelancers</a>
 						</li><li class="nav-item"id="nav-item">
 						<a class="nav-link" href="gallerymarketpage_new.php">Market Gallery</a>
 						</li>';
