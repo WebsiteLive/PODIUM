@@ -21,14 +21,14 @@
 
     <div class="row justify-content-center">
       <div class="col-sm-4 signup_form">
-        <h2 class="signup">Sign Up</h2>
+        <h2>Sign Up</h2>
         <?php if(isset($_GET['success'])):?>
           <p><?php echo $_GET['success']?></P>
         <?php endif?>
         <form action="signup.php" method="post">
           <div class="sec1" id="sec1">
             <div class="form-group">
-              <label for="email">Email Address</label>
+              <label for="email">Email address</label>
               <input type="email" class="form-control" id="form_input" name="email"required>
 
               <label for="uname">User Name:</label>
@@ -46,7 +46,7 @@
          
           </div>
           <div class="sec2" id="sec2">
-            <h3 class="personal">Personal Information</h3>
+            <h3>Personal Information</h3>
             <div class="form-group">
               <label for="fname">First Name:</label>
               <input type="text" class="form-control" id="form_input" name="fname" required>
@@ -74,8 +74,8 @@
             <input type="submit" class="signup_btn align-self-center" value="SignUp"></input>
           </div>
         </form>
-        <button id="nxtbtn" onClick="ShowNext()"class="signup_btn">Next</button>
-        <button id="bckbtn" onClick="ShowNext()"class="signup_btn1"  style="display:none;">Back</button>
+        <button id="nxtbtn" onClick="ShowNext()"class="signup_btn align-self-center">Next</button>
+        <button id="bckbtn" onClick="ShowNext()"class="signup_btn align-self-center" style="display:none;">Back</button>
       </div>
     </div>
   </div>
