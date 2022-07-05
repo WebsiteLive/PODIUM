@@ -25,7 +25,7 @@
         SET  user_type = 'Freelancer'
         WHERE User_Id='$id'";
         $result = odbc_exec($con,$query2);
-        header("Location: signout.php");
+        
         header("Location: gallerymarketpage_new.php");
     }
      
