@@ -23,19 +23,19 @@ function loginmodal(){
     }
   }
 }
-function signupmodal(){
-  var modal = document.getElementById("signupmodal");
-  var btn = document.getElementById("signupbtn");
-  var span = document.getElementsByClassName("close")[0];
-  btn.onclick = function() {
-    modal.style.display = "block";
+function freelancemodal(){
+  var modal2 = document.getElementById("freelancemodal");
+  var btn2 = document.getElementById("freelancebtn");
+  var span2 = document.getElementsByClassName("close")[0];
+  btn2.onclick = function() {
+    modal2.style.display = "block";
   }
-  span.onclick = function() {
-    modal.style.display = "none";
+  span2.onclick = function() {
+    modal2.style.display = "none";
   }
   window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
+    if (event.target == modal2) {
+      modal2.style.display = "none";
     }
   }
 }
