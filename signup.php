@@ -39,9 +39,16 @@
         VALUES('$user_id','$fname','$mname','$lname','$ext_name','$address','$birth')";
         $result2 = odbc_exec($con,$query2);
 
+        $query3 = "INSERT INTO [dbo].[user_type]
+        (User_Id,user_type)VALUES
+        ('$user_id', 'User')";
+
+        $result3 = odbc_exec($con,$query3);
+
+
         echo $result,$result2;
 
-        if(!$result || !$result2){
+        if(!$result || !$result2 || !$result3){
             header("Location: Ghost.html");
         }
         else{

@@ -37,17 +37,17 @@
                         <li>
                             <form method="post">
                                 <div class="items">
-                                    <a type="submit" name= "all" href=""><span class="item"
+                                    <a type="submit" name= "all" href="gallerymarketpage_new.php"><span class="item"
                                             data-name="all">All</span></a>
                                     <br>
                                     <br>
-                                    <a type="submit" name= "Paint" href=""><span class="item" data-name="painting">Painting</span></a>
+                                    <a type="submit" name= "Paint" href="gallerymarketpage_new.php?type=Paint"><span class="item" data-name="painting">Painting</span></a>
                                     <br>
                                     <br>
-                                    <a type="submit" name= "Draw" href=""><span class="item" data-name="drawing">Drawing</span></a>
+                                    <a type="submit" name= "Draw" href="gallerymarketpage_new.php?type=Draw"><span class="item" data-name="drawing">Drawing</span></a>
                                     <br>
                                     <br>
-                                    <a type="submit" name= "Digital" href=""><span class="item" data-name="digitalart">Digital Art</span></a>
+                                    <a type="submit" name= "Digital" href="gallerymarketpage_new.php?type=Digital"><span class="item" data-name="digitalart">Digital Art</span></a>
                                    
 
                                 </div>
@@ -83,23 +83,76 @@
                                 header("Location: Ghost.html");
                             }
                             else{
-                                $query = "SELECT*FROM art_submission WHERE post_type='Sale'";
-                                $result = odbc_exec($con,$query);
-                                        
-                                        
-                                if (!empty($result)) {
-                                    while ($row = odbc_fetch_array($result)) {
-                                    $id=$row['thread_Id'];    
-                                    $title=$row['item_title'];
-                                    $price=$row['price'];
-                                    $img_url=$row['item_imgurl'];
-                                    $desc=$row['post_description'];
-                                    include "view_items.php";
+
+                                if(isset($_GET['type'])){
+                                    $type=$_GET['type'];
+                                    
+
+                                    if($type == "Digital"){
+                                    $query = "SELECT*FROM art_submission WHERE post_type='Sale'AND item_type='Digital Art'";
+                                    $result = odbc_exec($con,$query);
+                               
+                                    if(!empty($result)) {
+                                        while ($row = odbc_fetch_array($result)) {
+                                        $id=$row['thread_Id'];    
+                                        $title=$row['item_title'];
+                                        $price=$row['price'];
+                                        $img_url=$row['item_imgurl'];
+                                        $desc=$row['post_description'];
+                                        include "view_items.php";
+                                        }
                                     }
                                     }
-                                    
-                                    
+                                    else if($type == "Draw"){
+                                        $query = "SELECT*FROM art_submission WHERE post_type='Sale'AND item_type='Drawing'";
+                                        $result = odbc_exec($con,$query);
+                                   
+                                        if(!empty($result)) {
+                                            while ($row = odbc_fetch_array($result)) {
+                                            $id=$row['thread_Id'];    
+                                            $title=$row['item_title'];
+                                            $price=$row['price'];
+                                            $img_url=$row['item_imgurl'];
+                                            $desc=$row['post_description'];
+                                            include "view_items.php";
+                                            }
+                                        }
+                                    }
+                                    else if($type == "Paint"){
+                                        $query = "SELECT*FROM art_submission WHERE post_type='Sale'AND item_type='Painting'";
+                                        $result = odbc_exec($con,$query);
+                                   
+                                        if(!empty($result)) {
+                                            while ($row = odbc_fetch_array($result)) {
+                                            $id=$row['thread_Id'];    
+                                            $title=$row['item_title'];
+                                            $price=$row['price'];
+                                            $img_url=$row['item_imgurl'];
+                                            $desc=$row['post_description'];
+                                            include "view_items.php";
+                                            }
+                                        }
+                                    }
                                 }
+                                else{
+                                    $query = "SELECT*FROM art_submission WHERE post_type='Sale'";
+                                    $result = odbc_exec($con,$query);
+                               
+                                    if(!empty($result)) {
+                                        while ($row = odbc_fetch_array($result)) {
+                                        $id=$row['thread_Id'];    
+                                        $title=$row['item_title'];
+                                        $price=$row['price'];
+                                        $img_url=$row['item_imgurl'];
+                                        $desc=$row['post_description'];
+                                        include "view_items.php";
+                                        }
+                                    }
+                                }
+                                
+                                    
+                                    
+                            }
                                 ?>
                             </div>
                         </div>

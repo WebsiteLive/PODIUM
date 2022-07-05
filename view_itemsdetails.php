@@ -9,7 +9,7 @@
         <p><?php echo $desc?></p>
         <div class="price"><?php echo $price?></div>
         <div class="buttons">
-            <a href="#" class="description">Go to Description Page</a>
+            <a href="descriptionofArt.php?threadid=<?php ECHO $id?>" class="description">Go to Description Page</a>
         </div>
     </div>
 

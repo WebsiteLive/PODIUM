@@ -1,0 +1,357 @@
+/********************** Navbar css below ******************/
+#title {
+    background-color:#feeee2;
+}
+.container {
+    padding: 3% 15% 10%;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.podium-logo {
+    width: 10%;
+    border-radius: 100%;
+    margin: 5px;
+}
+.dot{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background: whitesmoke;
+}
+.div-body {
+    background-color: #FEEEE2;
+    text-align: left;
+    
+}
+.header-item {
+    padding: 0 18px;
+}
+.header-link {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+/******************** title css below *********************/
+
+.navi-bar {
+    background-color: #65453a ;
+}
+.header {
+    margin-top: 50px;
+    position: relative; 
+    height: 3000px;
+    border: 5px solid #65453A;
+}
+.solid {
+    border:  1px solid black;
+}
+.solid2 {
+    border: 1px solid black;
+    margin-top: 1.5in;
+}
+h3 {
+    padding-top: 1in;
+}
+.forms {
+    padding: 18px 0 8px;
+}
+.div-form {
+    position: relative;
+    width: 1115px;
+    height: 400px;
+}
+.picture {
+    position: absolute;
+    top: 70px;
+}
+.dot2 {
+    position: absolute;
+    border-radius: 1em;
+    border: none;
+    width: 150px;
+    height: 150px;
+    background-color: #d4c2b4;
+    left: 150px;
+    bottom: 240px;
+}
+.name {
+    position: absolute;
+    top: 190px;
+}
+.text-name{
+    position:absolute;
+    top: 190px;
+    left: 120px;
+}
+.text-name2 {
+    position: absolute;
+    top: 190px;
+    left: 320px;
+}
+.years-exp {
+    position: absolute;
+    top: 270px;
+}
+.yrs-exp {
+    position: absolute;
+    top: 270px;
+    left: 170px;
+}
+.description {
+    position: absolute;
+    top: 350px;
+}
+.text-area {
+    position: absolute;
+    top: 350px;
+    left: 120px;
+    padding-right: 200px;
+}
+.drop {
+    text-align:center;
+    color: black;
+}
+
+/********** Gallery Items **********/
+.gallery {
+    position: relative;
+    height: 300px;
+}
+.gallery-file{
+    position: absolute;
+    background-color:#d4c2b4;
+    top: 50px;
+    left: 500px;
+    border-radius: 1em;
+}
+.sub {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    bottom: 25px;
+    left: 500px;
+    border-radius: 1em;
+    
+}
+/****** Submit Hover ******/
+
+.sub:hover {
+    background-color: #65453a;
+}
+
+/**************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #222;
+}
+
+.profile-pic-div{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+}
+
+#file{
+    display: none;
+}
+
+#uploadBtn{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: wheat;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+li{
+    list-style-type: none;
+}
+.main-menu .navbar-brand{
+    padding-top: 0rem;
+    padding-bottom: 0px;
+}
+.main-menu .navbar{
+    padding: 0px;
+}
+.main-menu .main-menu-item ul li .nav-link{
+    color: #000;
+    font-size: 15px;
+    padding: 35px 25px;
+    text-transform: capitalize;
+    line-height: 12px;
+    font-weight: 400;
+
+}
+.main-menu .main-menu-item ul li .nav-link:hover{
+    color: #000;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .main-menu .main-menu-item ul li .nav-link{
+        padding: 35px 20px;
+    }
+}
+.main-menu .cart i{
+    color: #000;
+    position: relative;
+    z-index: 1;
+    font-size: 15px;
+}
+.main-menu .cart i:after{
+    position: absolute;
+    border-radius: 50%;
+    background: #7e7a7a;
+    width: 14px;
+    height: 14px;
+    right: -8px;
+    top: -8px;
+    content: "5";
+    text-align: center;
+    line-height: 15px;
+    font-size: 10px;
+    color: #fff;
+}
+.dropdown .dropdown-menu{
+    transition: all 0.5s;
+    overflow: hidden;
+    transform-origin: top center;
+    transform: scale(1, 0);
+    display: block;
+    border: 0px solid transparent;
+    background: #000;
+}
+.dropdown .dropdown-menu .dropdown-item{
+    font-size: 14px;
+    padding:8px 20px !important;
+    color: #fff;
+    background: #000;
+    text-transform: capitalize;
+}
+.dropdown:hover .dropdown-menu{
+    transform: scale(1);
+}
+@media (max-width: 991px){
+    .main-menu{
+        padding: 26px 0px;
+    }
+    .menu .main-menu-item{
+        padding-left: 0px;
+    }
+    .main-menu .main-menu-item .nav-item{
+        padding: 5px 15px im !important;
+    }
+    .main-menu .main-menu-item .nav-item .nav-link{
+        padding: 5px 15px!important;
+        color: #614538;
+    }
+    .navbar-collapse{
+        z-index: 999!important;
+        position: absolute;
+        left: 0;
+        top: 50px;
+        width: 100%;
+        background: #614538;
+        text-align: center!important;
+    }
+    .dropdown .dropdown-menu{
+        transform: scale(1,0);
+        display: none;
+        margin-top: 10px;
+    }
+    .navbar-brand img{
+        max-width: 20px;
+        margin: 20 auto;
+        position: absolute;
+        left:100;
+        right: 100;
+        display: inline-block;
+        top: 100px;
+        bottom: 100px;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: transparent;
+        position: absolute;
+        left:0;
+    }
+    .nav-icon i{
+        color: #000;
+    }
+    .main-menu a i{
+        margin-left:13px;
+    }
+}
+@media (max-width: 576px){
+    .main-menu{
+        padding: 20px 0px;
+    }
+}
+@media only screen and(min-width: 576px) and (max-width: 767px){
+    .main-menu{
+        padding: 20px 0px
+    }
+}
+.main-menu-item{
+    justify-content: center!important;
+}
+
+
+
+
+#result{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .thumbnail {
+    height: 192px;
+  }
+  
+ .input{
+    text-align: center;
+ }
+
+ .button{
+    background-color: #614538;
+ }

@@ -25,6 +25,7 @@ if($error===0){
   
 }
 else{
-    header("Location: Ghost.html");
+    echo $error;
+    /*header("Location: Ghost.html");*/
 }
 ?>
