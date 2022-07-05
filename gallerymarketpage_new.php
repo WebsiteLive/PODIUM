@@ -48,7 +48,7 @@
                                     <br>
                                     <br>
                                     <a type="submit" name= "Digital" href=""><span class="item" data-name="digitalart">Digital Art</span></a>
-                                    <?php print_r($_POST);?>
+                                   
 
                                 </div>
                             </form>
@@ -103,6 +103,7 @@
                                 ?>
                             </div>
                         </div>
+                        <div class="products-preview">
                         <?php
                             include 'dbcon.php';
                             if(!$con){
@@ -122,13 +123,13 @@
                                     $desc=$row['post_description'];
                                     include "view_itemsdetails.php";
                                     }
+
                                     }
-                                    
-                                    
+                                     
                                 }
                                 ?>
                         
-
+                        </div>
                     </div>
 
 
@@ -144,7 +145,7 @@
     let preveiwContainer = document.querySelector('.products-preview');
     let previewBox = preveiwContainer.querySelectorAll('.preview');
   
-
+    console.log(previewBox.length);
     document.querySelectorAll('.products-container .product').forEach(product => {
         product.onclick = () => {
             preveiwContainer.style.display = 'flex';
