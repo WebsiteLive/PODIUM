@@ -18,6 +18,16 @@
     <div class="cointainer-fluid p-3">
     <h1>TEST</h1>
     <?php
+    // the message
+$msg = "First line of text\nSecond line of text";
+
+// use wordwrap() if lines are longer than 70 characters
+$msg = wordwrap($msg,70);
+
+// send email
+mail("dianoedrieljohn.ed@gmail.com","My subject",$msg);
+    
+    echo "The hash value for $user is: $hash.";
         echo $id."<br>";
         
         echo $date;
